@@ -16,7 +16,7 @@ const products = ({ data }) => {
 
 export const query = graphql`
   {
-    productsBkg: file(relativePath: { eq: "skyline.jpg" }) {
+    productsBkg: file(relativePath: { eq: "surfer.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 4160, quality: 90) {
           ...GatsbyImageSharpFluid

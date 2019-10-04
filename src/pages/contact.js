@@ -19,7 +19,7 @@ export default contact
 
 export const query = graphql`
   {
-    contactBcg: file(relativePath: { eq: "east-village.jpg" }) {
+    contactBcg: file(relativePath: { eq: "balboa.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 4160, quality: 90) {
           ...GatsbyImageSharpFluid_withWebp
