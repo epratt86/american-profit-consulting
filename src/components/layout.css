@@ -87,3 +87,9 @@ main {
   border: 5px solid #fff;
   padding: 2rem;
 }
+
+@media screen and (max-width: 768px) {
+  .btn-primary {
+    font-size: 14px;
+  }
+}

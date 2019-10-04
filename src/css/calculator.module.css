@@ -56,3 +56,10 @@
   position: relative;
   display: none;
 }
+
+@media screen and (max-width: 768px) {
+  .calculator {
+    margin: 4rem auto 2rem;
+    max-width: 330px;
+  }
+}
