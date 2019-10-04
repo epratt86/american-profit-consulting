@@ -1,6 +1,7 @@
 .blog {
   box-shadow: var(--lightShadow);
   transition: var(--mainTransition);
+  background: var(--mainBlack);
 }
 .blog:hover {
   box-shadow: var(--darkShadow);
@@ -44,6 +45,8 @@
 .footer {
   padding: 1rem;
   text-align: left;
+  background: var(--mainBlack);
+  color: var(--mainWhite);
 }
 .footer h4 {
   text-transform: capitalize;

@@ -1,5 +1,6 @@
 .blog {
   padding: 4rem 0;
+  background: var(--offWhite);
 }
 .center {
   width: 80vw;
@@ -8,6 +9,8 @@
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   grid-column-gap: 2rem;
   grid-row-gap: 2rem;
+  background: var(--mainWhite);
+  padding: 2rem;
 }
 .links {
   width: 80vw;
