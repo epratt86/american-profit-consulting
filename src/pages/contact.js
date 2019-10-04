@@ -9,9 +9,7 @@ const contact = ({ data }) => {
   return (
     <Layout>
       <SEO title="Contact" />
-      <StyledHero img={data.contactBcg.childImageSharp.fluid}>
-        <h1 className="title">contact us</h1>
-      </StyledHero>
+      <StyledHero img={data.contactBcg.childImageSharp.fluid} />
       <Contact />
     </Layout>
   )
@@ -21,7 +19,7 @@ export default contact
 
 export const query = graphql`
   {
-    contactBcg: file(relativePath: { eq: "background.jpg" }) {
+    contactBcg: file(relativePath: { eq: "east-village.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 4160, quality: 90) {
           ...GatsbyImageSharpFluid_withWebp

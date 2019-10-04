@@ -9,9 +9,7 @@ const blog = ({ data }) => {
   return (
     <Layout>
       <SEO title="Blog" />
-      <StyledHero img={data.blogBcg.childImageSharp.fluid}>
-        <h1 className="title">our blogs</h1>
-      </StyledHero>
+      <StyledHero img={data.blogBcg.childImageSharp.fluid} />
       <BlogList />
     </Layout>
   )
@@ -21,7 +19,7 @@ export default blog
 
 export const query = graphql`
   {
-    blogBcg: file(relativePath: { eq: "background.jpg" }) {
+    blogBcg: file(relativePath: { eq: "ocean.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 4160, quality: 90) {
           ...GatsbyImageSharpFluid

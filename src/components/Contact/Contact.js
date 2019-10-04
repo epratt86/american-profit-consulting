@@ -3,6 +3,7 @@ import styles from "../../css/contact.module.css"
 import { FaUser, FaEnvelope, FaPhone, FaRegCommentDots } from "react-icons/fa"
 import { graphql, useStaticQuery } from "gatsby"
 import Img from "gatsby-image"
+import Title from "../Title"
 
 const getImage = graphql`
   query contactImage {
@@ -21,6 +22,7 @@ const Contact = () => {
 
   return (
     <section className={styles.contact}>
+      <Title title="contact" subtitle="us" />
       <div className={styles.center}>
         <div className={styles.header}>
           <article className={styles.contactImg}>

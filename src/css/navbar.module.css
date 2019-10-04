@@ -22,7 +22,7 @@
 }
 
 .navbar {
-  background: var(--primaryColor);
+  background: url("../images/background.jpg");
 }
 
 .nav-links {

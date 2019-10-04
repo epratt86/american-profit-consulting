@@ -9,16 +9,14 @@ const products = ({ data }) => {
   return (
     <Layout>
       <SEO title="Products" />
-      <StyledHero img={data.productsBkg.childImageSharp.fluid}>
-        <h1 className="title">products</h1>
-      </StyledHero>
+      <StyledHero img={data.productsBkg.childImageSharp.fluid} />
     </Layout>
   )
 }
 
 export const query = graphql`
   {
-    productsBkg: file(relativePath: { eq: "background.jpg" }) {
+    productsBkg: file(relativePath: { eq: "skyline.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 4160, quality: 90) {
           ...GatsbyImageSharpFluid
