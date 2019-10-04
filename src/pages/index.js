@@ -26,7 +26,7 @@ export default ({ data }) => (
             </AniLink>
           </div>
         </Banner>
-        <div>
+        <div className={styles.calcWrapper}>
           <LoanCalculator />
         </div>
       </div>

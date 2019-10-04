@@ -33,7 +33,7 @@ export default styled(StyledHero)`
   min-height: ${props => (props.home ? "calc(100vh - 117px)" : "50vh")};
   background: ${props =>
     props.home
-      ? "linear-gradient(rgba(40, 55, 120, 0.3), rgba(0, 0, 0, 0.7))"
+      ? "linear-gradient(rgba(30, 60, 78, 0.3), rgba(0, 0, 0, 0.3))"
       : "none"};
   background-position: center;
   background-size: cover;

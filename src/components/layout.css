@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Lato|Poppins|Merriweather&display=swap");
 
 :root {
-  --primaryColor: #031524;
+  --primaryColor: #1e3c4e;
   --mainWhite: #fff;
   --offWhite: #f7f7f7;
-  --mainBlack: #222;
+  --mainBlack: #031321;
   --mainGrey: #ececec;
   --darkGrey: #afafaf;
   --mainTransition: all 0.3s linear;
@@ -74,6 +74,26 @@ a {
   color: var(--primaryColor);
 }
 
+/* override slider css */
+.input-range__slider {
+  background: var(--primaryColor) !important;
+}
+.input-range__track--active {
+  background: var(--primaryColor) !important;
+}
+.input-range__label--max {
+  display: none !important;
+}
+
+.input-range__label--min {
+  display: none !important;
+}
+
+.input-range__label-container {
+  position: relative !important;
+  display: none !important;
+}
+
 main {
   min-height: calc(100vh - 117px);
   display: flex;
@@ -91,5 +111,6 @@ main {
 @media screen and (max-width: 768px) {
   .btn-primary {
     font-size: 14px;
+    padding: 1rem;
   }
 }

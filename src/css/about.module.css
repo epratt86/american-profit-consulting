@@ -25,14 +25,6 @@
 }
 
 @media screen and (min-width: 768px) {
-  .about-center {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-column-gap: 3rem;
-    align-items: center;
-    margin-top: 3rem;
-  }
-
   .about-img,
   .about-info {
     margin: 0;
@@ -50,6 +42,11 @@
 
 @media screen and (min-width: 1200px) {
   .about-center {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 3rem;
+    align-items: center;
+    margin-top: 3rem;
     width: 95vw;
     max-width: 1170px;
   }
