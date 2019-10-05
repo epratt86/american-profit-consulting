@@ -27,6 +27,7 @@
 .borrow {
   text-align: left;
   margin-bottom: 2rem;
+  white-space: nowrap;
 }
 
 .header {

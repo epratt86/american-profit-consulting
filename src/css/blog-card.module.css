@@ -48,7 +48,8 @@
   background: var(--mainBlack);
   color: var(--mainWhite);
 }
-.footer h4 {
+.footer h4,
+.footer h2 {
   text-transform: capitalize;
   margin-bottom: 0;
 }
@@ -61,6 +62,10 @@
   padding: 0.3rem 0.5rem;
   border-top-right-radius: 1rem;
   border-bottom-right-radius: 1rem;
+}
+
+#product {
+  margin: 1rem 0;
 }
 
 @media screen and (max-width: 768px) {

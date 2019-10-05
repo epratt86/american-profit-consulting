@@ -3,13 +3,14 @@ import { graphql } from "gatsby"
 import Layout from "../components/Layout"
 import SEO from "../components/SEO"
 import StyledHero from "../components/StyledHero"
-import styles from "../css/products.module.css"
+import ProductsList from "../components/Products/ProductsList"
 
 const products = ({ data }) => {
   return (
     <Layout>
       <SEO title="Products" />
       <StyledHero img={data.productsBkg.childImageSharp.fluid} />
+      <ProductsList />
     </Layout>
   )
 }

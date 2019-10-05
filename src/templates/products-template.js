@@ -7,21 +7,20 @@ import AniLink from "gatsby-plugin-transition-link/AniLink"
 import { documentToReactComponents } from "@contentful/rich-text-react-renderer"
 import SEO from "../components/SEO"
 
-const blogTemplate = ({ data }) => {
+const productsTemplate = ({ data }) => {
   const {
-    title,
-    published,
-    text: { json },
-  } = data.post
+    name,
+    description: { json },
+    image,
+  } = data.products
 
   const options = {
     renderNode: {
       "embedded-asset-block": node => {
-        console.log(node)
         return (
           <div>
             <img
-              width="750"
+              width="100%"
               src={node.data.target.fields.file["en-US"].url}
               alt="contentful"
               style={{ display: "block", margin: "0 auto", padding: "1rem" }}
@@ -34,19 +33,16 @@ const blogTemplate = ({ data }) => {
 
   return (
     <Layout>
-      <SEO title={title} />
-      <StyledHero img={data.blogTempBcg.childImageSharp.fluid}>
-        <h1 className={styles.title}>apc</h1>
-      </StyledHero>
+      <SEO title={name} />
+      <StyledHero img={image.fluid} />
       <section className={styles.blog}>
         <div className={styles.center}>
-          <h1>{title}</h1>
-          <h4>published at: {published}</h4>
+          <h1>{name}</h1>
           <article className={styles.post}>
             {documentToReactComponents(json, options)}
           </article>
-          <AniLink fade to="/blog" className="btn-primary">
-            all posts
+          <AniLink fade to="/products" className="btn-primary">
+            all products
           </AniLink>
         </div>
       </section>
@@ -55,22 +51,19 @@ const blogTemplate = ({ data }) => {
 }
 
 export const query = graphql`
-  query getPost($slug: String!) {
-    post: contentfulPost(slug: { eq: $slug }) {
-      title
-      published(formatString: "MMMM Do, YYYY")
-      text {
+  query getProducts($slug: String!) {
+    products: contentfulProducts(slug: { eq: $slug }) {
+      name
+      description {
         json
       }
-    }
-    blogTempBcg: file(relativePath: { eq: "background.jpg" }) {
-      childImageSharp {
+      image {
         fluid(maxWidth: 4160, quality: 90) {
-          ...GatsbyImageSharpFluid
+          ...GatsbyContentfulFluid
         }
       }
     }
   }
 `
 
-export default blogTemplate
+export default productsTemplate
