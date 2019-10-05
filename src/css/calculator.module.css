@@ -60,7 +60,7 @@
     padding: 1rem;
   }
   .borrow {
-    white-space: wrap;
+    white-space: normal;
   }
 }
 
