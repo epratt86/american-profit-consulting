@@ -1,6 +1,6 @@
 .about {
   padding: 4rem 0;
-  background: url("../images/so-white.png") repeat;
+  background: var(--offWhite);
 }
 .about-center {
   width: 80vw;

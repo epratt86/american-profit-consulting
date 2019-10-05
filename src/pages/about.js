@@ -3,6 +3,7 @@ import AniLink from "gatsby-plugin-transition-link/AniLink"
 import Layout from "../components/Layout"
 import Title from "../components/Title"
 import StyledHero from "../components/StyledHero"
+import Numbers from "../components/Numbers"
 import styles from "../css/about.module.css"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
@@ -75,6 +76,7 @@ const About = () => {
           </article>
         </div>
       </section>
+      <Numbers />
     </Layout>
   )
 }
