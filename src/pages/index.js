@@ -5,9 +5,9 @@ import Banner from "../components/Banner"
 import About from "../components/Home/About"
 import Services from "../components/Home/Services"
 import StyledHero from "../components/StyledHero"
-// import FeaturedProducts from "../components/Home/FeaturedProducts"
 import FeaturedIn from "../components/Home/FeaturedIn"
 import LoanCalculator from "../components/Home/LoanCalculator"
+import Cta from "../components/Cta"
 import { graphql } from "gatsby"
 import SEO from "../components/SEO"
 import styles from "../css/home.module.css"
@@ -33,8 +33,8 @@ export default ({ data }) => (
     </StyledHero>
     <About />
     <Services />
-    {/* <FeaturedProducts /> */}
     <FeaturedIn />
+    <Cta />
   </Layout>
 )
 

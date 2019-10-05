@@ -1,0 +1,23 @@
+.cta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 0;
+  background: var(--primaryColor);
+  color: var(--mainWhite);
+}
+
+.cta h3 {
+  text-transform: uppercase;
+  font-size: 2rem;
+  padding: 0 2rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .cta h3 {
+    font-size: 1.5rem;
+    padding: 0 1rem;
+  }
+}

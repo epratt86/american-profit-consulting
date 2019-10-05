@@ -2,6 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/Layout"
 import StyledHero from "../components/StyledHero"
+import Cta from "../components/Cta"
 import styles from "../css/single-blog.module.css"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 import { documentToReactComponents } from "@contentful/rich-text-react-renderer"
@@ -46,6 +47,7 @@ const productsTemplate = ({ data }) => {
           </AniLink>
         </div>
       </section>
+      <Cta />
     </Layout>
   )
 }
