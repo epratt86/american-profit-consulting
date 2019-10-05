@@ -6,7 +6,7 @@ const Cta = () => {
   return (
     <section className={styles.cta}>
       <h3>
-        need a fast, <span>busines loan?</span>
+        need a fast, <span>business loan?</span>
       </h3>
       <AniLink fade to="/contact" className="btn-white">
         get a free quote

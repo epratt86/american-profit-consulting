@@ -59,6 +59,9 @@
   .calc-body {
     padding: 1rem;
   }
+  .borrow {
+    white-space: wrap;
+  }
 }
 
 @media screen and (max-width: 500px) {
