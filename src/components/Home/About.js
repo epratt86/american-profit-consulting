@@ -29,7 +29,7 @@ const About = () => {
           <div className={styles.imgContainer}>
             <Img
               fluid={aboutImage.childImageSharp.fluid}
-              alt="Expert Knowledge"
+              alt="Humberto Hernandez"
             />
           </div>
         </article>

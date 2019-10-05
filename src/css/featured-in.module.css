@@ -5,9 +5,6 @@
 .center {
   width: 80vw;
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  grid-column-gap: 2rem;
 }
 .featured {
   background: var(--mainWhite);
@@ -18,7 +15,6 @@
 
 .logos {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
 }
@@ -31,5 +27,11 @@
 @media screen and (max-width: 768px) {
   .logo {
     margin: 10px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .logos {
+    flex-wrap: wrap;
   }
 }
