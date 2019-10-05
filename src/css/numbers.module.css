@@ -43,10 +43,16 @@
   .center {
     width: 100%;
   }
+  .counter {
+    font-size: 1.2rem;
+  }
   .counter h4 {
-    margin-bottom: 1rem;
+    margin-bottom: 1.3rem;
   }
   .row {
     grid-template-columns: repeat(1, 1fr);
+  }
+  .numbers {
+    padding: 1rem;
   }
 }
