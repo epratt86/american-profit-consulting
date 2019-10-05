@@ -1,5 +1,6 @@
 .about {
   padding: 4rem 0;
+  background: url("../images/so-white.png") repeat;
 }
 .about-center {
   width: 80vw;
@@ -16,8 +17,8 @@
 }
 
 .about-img img {
-  width: 100%;
   display: block;
+  border-radius: 10px;
 }
 .about-info h4 {
   font-size: 1.9rem;
@@ -29,11 +30,11 @@
   .about-info {
     margin: 0;
   }
-  .about-img img {
-    max-height: 500px;
-  }
+
   .img-container {
-    max-height: 500px;
+    max-height: 600px;
+    max-width: 320px;
+    margin-bottom: 1.5rem;
   }
   .about-info p {
     width: 80%;
@@ -43,7 +44,7 @@
 @media screen and (min-width: 1200px) {
   .about-center {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
     grid-column-gap: 3rem;
     align-items: center;
     margin-top: 3rem;

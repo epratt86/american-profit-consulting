@@ -7,9 +7,9 @@ import Img from "gatsby-image"
 
 const getAbout = graphql`
   query aboutImage {
-    aboutImage: file(relativePath: { eq: "business-plan.png" }) {
+    aboutImage: file(relativePath: { eq: "humberto.jpg" }) {
       childImageSharp {
-        fluid(maxWidth: 600) {
+        fluid {
           ...GatsbyImageSharpFluid_tracedSVG
         }
       }
@@ -23,7 +23,7 @@ const About = () => {
 
   return (
     <section className={styles.about} id="about">
-      <Title title="about" subtitle="us" />
+      <Title title="proven" subtitle="experience" />
       <div className={styles.aboutCenter}>
         <article className={styles.aboutImg}>
           <div className={styles.imgContainer}>
@@ -34,13 +34,13 @@ const About = () => {
           </div>
         </article>
         <article className={styles.aboutInfo}>
-          <h4>proven experience</h4>
-          <p>
+          <h4>Expertise you can rely on</h4>
+          <h5>
             Put over 15 years of financial services experience in your corner.
-          </p>
+          </h5>
           <p>
             As a former business banker/lender, I have a deep passion and regard
-            for business but have spent the last 15 years working for business
+            for business but have spent the last 14 years working for business
             banks under their agenda. During that time I knew I was under
             serving business owners around me because of the bias guidance I was
             forced to give in order to keep my job at the bank that employed me.
