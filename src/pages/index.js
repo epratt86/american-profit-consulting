@@ -31,7 +31,6 @@ export default ({ data }) => (
         </div>
       </div>
     </StyledHero>
-    <About />
     <Services />
     <FeaturedIn />
     <Cta />
