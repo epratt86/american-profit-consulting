@@ -2,7 +2,7 @@ import React from "react"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 import Layout from "../components/Layout"
 import Banner from "../components/Banner"
-import About from "../components/Home/About"
+import Numbers from "../components/Numbers"
 import Services from "../components/Home/Services"
 import StyledHero from "../components/StyledHero"
 import FeaturedIn from "../components/Home/FeaturedIn"
@@ -31,6 +31,7 @@ export default ({ data }) => (
         </div>
       </div>
     </StyledHero>
+    <Numbers />
     <Services />
     <FeaturedIn />
     <Cta />
