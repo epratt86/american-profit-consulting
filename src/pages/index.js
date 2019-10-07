@@ -21,7 +21,12 @@ export default ({ data }) => (
           <div className={styles.intro}>
             <h1>not just another broker</h1>
             <h2>A consultant with specialized knowledge</h2>
-            <AniLink fade to="/contact" className="btn-white">
+            <AniLink
+              fade
+              to="/contact"
+              className="btn-white"
+              aria-label="Learn More"
+            >
               Learn More
             </AniLink>
           </div>

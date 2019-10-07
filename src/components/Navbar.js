@@ -17,7 +17,7 @@ const Navbar = () => {
     <nav className={styles.navbar}>
       <div className={styles.navCenter}>
         <div className={styles.navHeader}>
-          <AniLink fade to="/">
+          <AniLink fade to="/" aria-label="Home">
             <img
               src={logo}
               alt="American Profit Consulting"
@@ -39,7 +39,7 @@ const Navbar = () => {
           {links.map((link, index) => {
             return (
               <li key={index}>
-                <AniLink fade to={link.path}>
+                <AniLink fade to={link.path} aria-label={link.text}>
                   {link.text}
                 </AniLink>
               </li>

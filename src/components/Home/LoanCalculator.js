@@ -47,7 +47,13 @@ export default class LoanCalculator extends Component {
           <Display years={yearsValue} amount={amountValue} />
         </div>
         <div className={styles.footer}>
-          <AniLink fade to="/contact" className="btn-primary" id={styles.cta}>
+          <AniLink
+            fade
+            to="/contact"
+            className="btn-primary"
+            id={styles.cta}
+            aria-label="Get your free quote"
+          >
             Get Your Free Quote
           </AniLink>
           <p>*Example only. Assumes strong credit.</p>

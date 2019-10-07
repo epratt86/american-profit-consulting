@@ -70,7 +70,12 @@ const About = () => {
               navigate the entire loan process and negotiate excellent terms
               using the same information and knowledge that banks use.
             </p>
-            <AniLink fade to="/contact" className="btn-primary">
+            <AniLink
+              fade
+              to="/contact"
+              className="btn-primary"
+              aria-label="Get in touch"
+            >
               get in touch
             </AniLink>
           </article>

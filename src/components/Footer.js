@@ -11,7 +11,7 @@ const Footer = () => {
     <footer className={styles.footer}>
       <div className={styles.container}>
         <div className={styles.row}>
-          <AniLink fade to="/">
+          <AniLink fade to="/" aria-label="Home">
             <img
               src={logo}
               alt="American Profit Consulting"
@@ -22,7 +22,7 @@ const Footer = () => {
             <h4>Overview</h4>
             {links.map((link, index) => {
               return (
-                <AniLink fade key={index} to={link.path}>
+                <AniLink fade key={index} to={link.path} aria-label={link.text}>
                   {link.text}
                 </AniLink>
               )

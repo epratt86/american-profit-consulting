@@ -107,7 +107,11 @@ const Contact = () => {
             <input type="hidden" name="form-name" value="contact" />
           </div>
           <div>
-            <button type="submit" className="btn-primary">
+            <button
+              type="submit"
+              className="btn-primary"
+              aria-label="send message"
+            >
               send message
             </button>
           </div>

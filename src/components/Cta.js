@@ -8,7 +8,12 @@ const Cta = () => {
       <h3>
         need a fast, <span>business loan?</span>
       </h3>
-      <AniLink fade to="/contact" className="btn-white">
+      <AniLink
+        fade
+        to="/contact"
+        className="btn-white"
+        aria-label="Get a free quote"
+      >
         get a free quote
       </AniLink>
     </section>

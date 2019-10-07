@@ -9,7 +9,12 @@ const ProductsCard = ({ product }) => {
     <article className={styles.blog} id={styles.product}>
       <div className={styles.imgContainer}>
         <Image fluid={image.fluid} className={styles.img} alt="product card" />
-        <Anilink fade to={`/products/${slug}`} className={styles.link}>
+        <Anilink
+          fade
+          to={`/products/${slug}`}
+          className={styles.link}
+          aria-label="Read More"
+        >
           read more
         </Anilink>
       </div>

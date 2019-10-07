@@ -20,7 +20,12 @@ const Services = () => {
         })}
       </div>
       <div style={{ textAlign: "center" }}>
-        <AniLink fade to="/products" className="btn-primary">
+        <AniLink
+          fade
+          to="/products"
+          className="btn-primary"
+          aria-label="View Products"
+        >
           View Products
         </AniLink>
       </div>
