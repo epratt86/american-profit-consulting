@@ -46,6 +46,11 @@ const SEO = ({ title, description }) => {
       <meta property="og:image" content={`${siteUrl}${image}`} />
       <meta property="og:image:width" content="400" />
       <meta property="og:image:height" content="300" />
+      <script
+        type="text/javascript"
+        src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js"
+        async
+      ></script>
     </Helmet>
   )
 }
