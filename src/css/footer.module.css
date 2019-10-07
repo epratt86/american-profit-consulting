@@ -1,8 +1,8 @@
 .copyright {
-  text-transform: capitalize;
+  text-transform: uppercase;
   letter-spacing: var(--mainSpacing);
   margin-top: 1rem;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .container {
@@ -69,8 +69,6 @@
 
 @media screen and (max-width: 500px) {
   .copyright {
-    font-size: 12px;
-    text-align: left;
     margin: 1rem auto 0 0;
   }
   .links,

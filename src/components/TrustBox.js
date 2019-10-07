@@ -21,6 +21,7 @@ const TrustBox = () => {
       data-style-height="24px"
       data-style-width="100%"
       data-theme="dark"
+      style={{ marginBottom: "2rem" }}
     >
       <a
         href="https://www.trustpilot.com/review/americanprofitconsulting.com"
@@ -30,7 +31,6 @@ const TrustBox = () => {
         {" "}
         Trustpilot
       </a>
-      <br />
     </div>
   )
 }
