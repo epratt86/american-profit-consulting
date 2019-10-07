@@ -22,6 +22,7 @@ const Navbar = () => {
               src={logo}
               alt="American Profit Consulting"
               className={styles.logo}
+              aria-label="Home"
             />
           </AniLink>
 
@@ -54,6 +55,7 @@ const Navbar = () => {
                 href={icon.url}
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label={icon.name}
               >
                 {icon.icon}
               </a>

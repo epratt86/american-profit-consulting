@@ -37,6 +37,7 @@ const Footer = () => {
                   href={icon.url}
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label={icon.name}
                 >
                   {icon.icon}
                 </a>
