@@ -74,6 +74,12 @@
     font-size: 10px;
     white-space: nowrap;
   }
+  .disclaimers {
+    letter-spacing: 1px;
+  }
+  .disclaimers h6 {
+    letter-spacing: 2px;
+  }
   .links,
   .icons {
     text-align: center;
