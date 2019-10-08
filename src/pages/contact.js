@@ -13,7 +13,7 @@ const contact = ({ data }) => {
       <StyledHero img={data.contactBcg.childImageSharp.fluid} />
       <Contact />
       <Video
-        videoSrcURL="https://www.youtube.com/embed/pteZYJyo05M"
+        videoSrcURL="https://www.youtube.com/embed/hTgKjCSgGZY"
         videoTitle="another client successfully funded!"
       />
     </Layout>

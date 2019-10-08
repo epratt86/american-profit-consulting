@@ -41,7 +41,7 @@ export default ({ data }) => (
     <Services />
     <FeaturedIn />
     <Video
-      videoSrcURL="https://www.youtube.com/embed/hTgKjCSgGZY"
+      videoSrcURL="https://www.youtube.com/embed/pteZYJyo05M"
       videoTitle="client successfully funded!"
     />
     <Cta />
