@@ -4,6 +4,7 @@ import Layout from "../components/Layout"
 import Title from "../components/Title"
 import StyledHero from "../components/StyledHero"
 import Numbers from "../components/Numbers"
+import Video from "../components/Video"
 import styles from "../css/about.module.css"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
@@ -82,6 +83,10 @@ const About = () => {
         </div>
       </section>
       <Numbers />
+      <Video
+        videoSrcURL="https://www.youtube.com/embed/diluqhgGMNg"
+        videoTitle="clients successfully funded!"
+      />
     </Layout>
   )
 }

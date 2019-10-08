@@ -3,6 +3,7 @@ import Layout from "../components/Layout"
 import StyledHero from "../components/StyledHero"
 import { graphql } from "gatsby"
 import Contact from "../components/Contact/Contact"
+import Video from "../components/Video"
 import SEO from "../components/SEO"
 
 const contact = ({ data }) => {
@@ -11,6 +12,10 @@ const contact = ({ data }) => {
       <SEO title="Contact" />
       <StyledHero img={data.contactBcg.childImageSharp.fluid} />
       <Contact />
+      <Video
+        videoSrcURL="https://www.youtube.com/embed/pteZYJyo05M"
+        videoTitle="another client successfully funded!"
+      />
     </Layout>
   )
 }
