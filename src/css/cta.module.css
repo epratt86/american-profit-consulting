@@ -1,9 +1,25 @@
+.bg-pattern {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url("../images/waves.png") no-repeat right;
+  background-position-y: bottom;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+}
+
+#btn {
+  z-index: 10;
+}
+
 .cta {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 3rem 0;
+  padding: 4rem 0;
   background: var(--primaryColor);
   color: var(--mainWhite);
 }
