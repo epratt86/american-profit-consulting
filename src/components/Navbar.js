@@ -22,11 +22,15 @@ const Navbar = () => {
               src={logo}
               alt="American Profit Consulting"
               className={styles.logo}
-              aria-label="Home"
             />
           </AniLink>
 
-          <button type="button" className={styles.logoBtn} onClick={toggleNav}>
+          <button
+            type="button"
+            aria-label="Menu"
+            className={styles.logoBtn}
+            onClick={toggleNav}
+          >
             <FaAlignRight className={styles.logoIcon} />
           </button>
         </div>

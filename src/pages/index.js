@@ -23,11 +23,11 @@ export default ({ data }) => (
             <h2>A consultant with specialized knowledge</h2>
             <AniLink
               fade
-              to="/contact"
+              to="/products"
               className="btn-white"
-              aria-label="Learn More"
+              aria-label="products"
             >
-              Learn More
+              what we offer
             </AniLink>
           </div>
         </Banner>

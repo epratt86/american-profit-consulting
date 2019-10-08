@@ -18,13 +18,12 @@ const blogTemplate = ({ data }) => {
   const options = {
     renderNode: {
       "embedded-asset-block": node => {
-        console.log(node)
         return (
           <div>
             <img
               width="750"
               src={node.data.target.fields.file["en-US"].url}
-              alt="contentful"
+              alt={title}
               style={{ display: "block", margin: "0 auto", padding: "1rem" }}
             />
           </div>
