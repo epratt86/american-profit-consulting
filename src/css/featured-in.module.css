@@ -1,16 +1,16 @@
-.featured-in {
-  background: var(--mainGrey);
-  padding: 4rem 0;
-}
 .center {
   width: 80vw;
   margin: 0 auto;
 }
 .featured {
-  background: var(--mainWhite);
+  background: var(--mainGrey);
   padding: 2rem 0;
   text-align: center;
-  margin: 1rem 0 2rem;
+}
+
+.featured h4 {
+  color: var(--primaryColor);
+  text-transform: uppercase;
 }
 
 .logos {

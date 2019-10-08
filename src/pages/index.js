@@ -10,6 +10,7 @@ import LoanCalculator from "../components/Home/LoanCalculator"
 import Cta from "../components/Cta"
 import { graphql } from "gatsby"
 import SEO from "../components/SEO"
+import Video from "../components/Video"
 import styles from "../css/home.module.css"
 
 export default ({ data }) => (
@@ -39,6 +40,10 @@ export default ({ data }) => (
     <Numbers />
     <Services />
     <FeaturedIn />
+    <Video
+      videoSrcURL="https://www.youtube.com/embed/hTgKjCSgGZY"
+      videoTitle="another client funded"
+    />
     <Cta />
   </Layout>
 )

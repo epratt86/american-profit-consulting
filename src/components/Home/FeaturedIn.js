@@ -1,6 +1,5 @@
 import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
-import Title from "../../components/Title"
 import styles from "../../css/featured-in.module.css"
 import Img from "gatsby-image"
 
@@ -65,7 +64,7 @@ const FeaturedIn = () => {
 
   return (
     <section className={styles.featured}>
-      <Title title="featured" subtitle="in*" />
+      <h4>featured in*</h4>
       <div className={styles.center}>
         <article className={styles.logos}>
           <Img

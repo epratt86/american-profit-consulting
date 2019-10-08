@@ -1,0 +1,32 @@
+.video {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+  background: var(--darkGrey);
+}
+
+.video h3 {
+  color: var(--primaryColor);
+  text-transform: uppercase;
+  letter-spacing: var(--mainSpacing);
+  font-size: 2rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+.video iframe {
+  max-height: 500px;
+  height: 400px;
+  max-width: 650px;
+  width: 100%;
+  border-radius: 2rem;
+  box-shadow: var(--lightShadow);
+}
+
+@media screen and (max-width: 500px) {
+  .video h3 {
+    font-size: 1.5rem;
+  }
+}
