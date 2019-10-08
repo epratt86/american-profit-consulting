@@ -28,12 +28,10 @@
 
 @media screen and (max-width: 500px) {
   .video {
-    padding: 1rem 0 0;
-    background: var(--primaryColor);
+    padding: 0;
   }
   .video h3 {
-    font-size: 1.5rem;
-    color: var(--mainWhite);
+    display: none;
   }
   .iframe {
     border-radius: 0;
