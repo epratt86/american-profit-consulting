@@ -40,11 +40,11 @@ export default ({ data }) => (
     <Numbers />
     <Services />
     <FeaturedIn />
+    <Cta />
     <Video
       videoSrcURL="https://www.youtube.com/embed/pteZYJyo05M"
       videoTitle="client successfully funded!"
     />
-    <Cta />
   </Layout>
 )
 
