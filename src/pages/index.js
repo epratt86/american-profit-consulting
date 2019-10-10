@@ -55,8 +55,9 @@ export default ({ data }) => (
             />
             <br />
             <ReviewCard
-              name="Dillon McCormick"
-              review="I’ve had the pleasure of working with Humberto from American Profit Consulting and I would no doubt recommend his service to any business owner. His knowledge, guidance, and unbiased professional opinion are invaluable to the growth of a business. Do yourself a favor and give him a call."
+              name="Chad Bell"
+              company="Achilles Coffee Roasters"
+              review="Humberto is a real pro. He managed our loan application process from beginning to end and helped us get the financing we needed to expand. In addition, he saved us a lot of money with our worker's comp and liability insurance policies. Recently he found us financing for a company van which was less than what the dealer offered us - Thanks Humberto!"
             />
           </section>
 
