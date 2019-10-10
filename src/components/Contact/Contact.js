@@ -117,6 +117,11 @@ const Contact = () => {
                 name="Francesco Bucci"
                 review="Humberto is responsive, competent, personable and... he's always on the lookout for problems: because his favorite job is to find solutions."
               />
+              <br />
+              <ReviewCard
+                name="Patrick Sanders"
+                review="Humberto was very professional and helped me purchase my commercial office with favorable terms. Would definitely recommend."
+              />
             </section>
           </div>
         </div>
