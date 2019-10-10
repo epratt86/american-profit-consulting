@@ -27,7 +27,7 @@ const ProductsList = () => {
   const { products } = useStaticQuery(getProducts)
   return (
     <section className={styles.productsList}>
-      <Title title="our" subtitle="products" />
+      <Title title="services" subtitle="offered" />
       <div className={styles.center}>
         {products.edges.map(({ node }) => {
           return <ProductCard key={node.id} product={node} />

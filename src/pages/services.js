@@ -8,7 +8,7 @@ import ProductsList from "../components/Products/ProductsList"
 const products = ({ data }) => {
   return (
     <Layout>
-      <SEO title="Products" />
+      <SEO title="Services" />
       <StyledHero img={data.productsBkg.childImageSharp.fluid} />
       <ProductsList />
     </Layout>
