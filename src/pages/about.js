@@ -87,7 +87,7 @@ const About = () => {
       <Numbers />
       <section className="clients">
         <div className="center">
-          <Title title="clients" subtitle="funded" />
+          <Title title="clients" subtitle="satisified" />
           <div className="row">
             <section className="reviews">
               <ReviewCard

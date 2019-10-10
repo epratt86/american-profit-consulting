@@ -45,7 +45,7 @@ export default ({ data }) => (
     <Cta />
     <section className="clients">
       <div className="center">
-        <Title title="clients" subtitle="funded" />
+        <Title title="satisfied" subtitle="clients" />
         <div className="row">
           <section className="reviews">
             <ReviewCard

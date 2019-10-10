@@ -18,7 +18,7 @@ const contact = ({ data }) => {
       <Numbers />
       <section className="clients">
         <div className="center">
-          <Title title="clients" subtitle="funded" />
+          <Title title="clients" subtitle="satisfied" />
           <div className="row">
             <section className="reviews">
               <ReviewCard
