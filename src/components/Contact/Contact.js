@@ -116,6 +116,7 @@ const Contact = () => {
             </button>
           </div>
         </form>
+        <div className={styles.bgPattern}></div>
       </div>
     </section>
   )

@@ -4,14 +4,15 @@
   justify-content: center;
   align-items: center;
   padding: 2rem 0;
-  background: var(--darkGrey);
+  background: var(--mainWhite);
+  box-shadow: var(--lightShadow);
 }
 
 .video h3 {
   color: var(--primaryColor);
   text-transform: uppercase;
   letter-spacing: var(--mainSpacing);
-  font-size: 2rem;
+  font-size: 1.2rem;
   text-align: center;
   padding: 1rem;
 }
@@ -19,21 +20,21 @@
 .iframe {
   position: relative;
   max-height: 500px;
-  height: 400px;
+  height: 300px;
   max-width: 650px;
   width: 100%;
-  border-radius: 2rem;
-  box-shadow: var(--lightShadow);
+  padding: 0 3rem;
 }
 
 @media screen and (max-width: 500px) {
   .video {
     padding: 0;
+    margin-top: 1rem;
   }
   .video h3 {
-    display: none;
+    font-size: 1rem;
   }
   .iframe {
-    border-radius: 0;
+    padding: 0;
   }
 }

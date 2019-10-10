@@ -1,6 +1,19 @@
+.bg-pattern {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: url("../images/waves-dark.png") no-repeat right;
+  background-position-y: bottom;
+  height: 50%;
+  width: 100%;
+  z-index: -1;
+}
+
 .contact {
+  position: relative;
   padding: 4rem 0;
   background-color: var(--offWhite);
+  z-index: 0;
 }
 
 .contact-img {
@@ -21,6 +34,7 @@
 .form {
   background: var(--mainWhite);
   padding: 2rem 1.5rem;
+  z-index: 100;
 }
 
 .form svg {

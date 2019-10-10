@@ -74,6 +74,41 @@ a {
   color: var(--primaryColor);
 }
 
+.center {
+  width: 95vw;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.clients {
+  background: var(--mainGrey);
+}
+
+.clients h4 {
+  padding-top: 3rem;
+}
+
+.clients .row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  grid-gap: 1rem;
+  padding: 2rem 0;
+}
+@media screen and (max-width: 768px) {
+  .center {
+    width: 80vw;
+  }
+  .clients .row {
+    grid-template-columns: auto;
+  }
+}
+@media screen and (max-width: 500px) {
+  .clients .row {
+    display: block;
+  }
+}
+
 /* override slider css */
 .input-range__slider {
   background: var(--primaryColor) !important;
