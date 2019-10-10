@@ -11,7 +11,7 @@ import Cta from "../components/Cta"
 import { graphql } from "gatsby"
 import SEO from "../components/SEO"
 import Video from "../components/Video"
-import ReviewCard from "../components/Reviewcard"
+import ReviewCard from "../components/ReviewCard"
 import Title from "../components/Title"
 import styles from "../css/home.module.css"
 
