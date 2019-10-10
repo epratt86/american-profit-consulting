@@ -1,6 +1,8 @@
 .about {
+  position: relative;
   padding: 4rem 0;
   background: var(--offWhite);
+  z-index: 0;
 }
 .about-center {
   width: 80vw;
@@ -11,6 +13,7 @@
 }
 .about-info {
   margin-top: 3rem;
+  z-index: 10;
 }
 .about-img {
   position: relative;
@@ -23,6 +26,17 @@
 .about-info h4 {
   font-size: 1.9rem;
   text-transform: uppercase;
+}
+
+.bg-pattern {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: url("../images/waves-dark.png") no-repeat right;
+  background-position-y: bottom;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
 }
 
 @media screen and (min-width: 768px) {

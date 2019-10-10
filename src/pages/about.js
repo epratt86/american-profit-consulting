@@ -82,6 +82,7 @@ const About = () => {
             </AniLink>
           </article>
         </div>
+        <div className={styles.bgPattern}></div>
       </section>
       <Numbers />
       <section className="clients">
