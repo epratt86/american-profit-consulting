@@ -45,12 +45,20 @@ export default ({ data }) => (
     <Cta />
     <section className="clients">
       <div className="center">
-        <Title title="client" subtitle="reviews" />
+        <Title title="clients" subtitle="funded" />
         <div className="row">
           <section className="reviews">
-            <ReviewCard />
+            <ReviewCard
+              name="Sean Haggerty"
+              company="President Protector Brewery LLC"
+              review="American Profit Consulting has done an awesome job with the services provided to our brewery! Products are outstanding and they will beat competitor pricing on everything they provide, highly recommend doing business with American Profit Consulting!"
+            />
             <br />
-            <ReviewCard />
+            <ReviewCard
+              name="Dillon McCormick"
+              company="McCormick INC"
+              review="I’ve had the pleasure of working with Humberto from American Profit Consulting and I would no doubt recommend his service to any business owner. His knowledge, guidance, and unbiased professional opinion are invaluable to the growth of a business. Do yourself a favor and give him a call."
+            />
           </section>
 
           <Video

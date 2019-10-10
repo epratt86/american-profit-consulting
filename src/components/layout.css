@@ -97,7 +97,7 @@ a {
 }
 @media screen and (max-width: 768px) {
   .center {
-    width: 80vw;
+    width: 85vw;
   }
   .clients .row {
     grid-template-columns: auto;
