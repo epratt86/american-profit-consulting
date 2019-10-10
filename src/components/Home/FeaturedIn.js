@@ -64,7 +64,9 @@ const FeaturedIn = () => {
 
   return (
     <section className={styles.featured}>
-      <h4>featured in*</h4>
+      <h4>
+        featured in<small>*</small>
+      </h4>
       <div className={styles.center}>
         <article className={styles.logos}>
           <Img
