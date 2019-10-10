@@ -4,7 +4,7 @@ import links from "../constants/links"
 import socialIcons from "../constants/social-icons"
 import TrustBox from "../components/TrustBox"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
-import logo from "../images/logo-white.png"
+import logo from "../images/apc.png"
 
 const Footer = () => {
   return (
