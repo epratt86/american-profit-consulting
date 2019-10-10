@@ -1,6 +1,6 @@
 .review-card {
   background: var(--mainWhite);
-  padding: 2rem;
+  padding: 1rem;
   box-shadow: var(--lightShadow);
 }
 

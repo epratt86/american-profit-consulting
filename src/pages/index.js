@@ -10,7 +10,6 @@ import LoanCalculator from "../components/Home/LoanCalculator"
 import Cta from "../components/Cta"
 import { graphql } from "gatsby"
 import SEO from "../components/SEO"
-import Video from "../components/Video"
 import ReviewCard from "../components/ReviewCard"
 import Title from "../components/Title"
 import styles from "../css/home.module.css"
@@ -47,7 +46,7 @@ export default ({ data }) => (
       <div className="center">
         <Title title="satisfied" subtitle="clients" />
         <div className="row">
-          <section className="reviews">
+          <section id={styles.colOne}>
             <ReviewCard
               name="Sean Haggerty"
               company="President Protector Brewery LLC"
@@ -60,11 +59,23 @@ export default ({ data }) => (
               review="Humberto is a real pro. He managed our loan application process from beginning to end and helped us get the financing we needed to expand. In addition, he saved us a lot of money with our worker's comp and liability insurance policies. Recently he found us financing for a company van which was less than what the dealer offered us - Thanks Humberto!"
             />
           </section>
-
-          <Video
-            videoSrcURL="https://www.youtube.com/embed/pteZYJyo05M"
-            videoTitle="Achilles Coffee Roasters Funded"
-          />
+          <section id={styles.colTwo}>
+            <ReviewCard
+              name="Mike Woodall"
+              review="Humberto is knowledgeable professional. Without his expert advice, one of my clients would never have received the growth capital they needed."
+            />
+            <br />
+            <ReviewCard
+              name="Jose"
+              review="Humberto is an excellent consultant. I couldn’t think of anyone more knowledgeable and competent as him. He listens to understand your needs and delivers. Next time I need funding or guidance he’ll be the first I call without a doubt."
+            />
+            <br />
+            <ReviewCard
+              name="Ali Horuz"
+              company="VIP Pedicabs"
+              review="Great experience working with Humberto l higly recommend him."
+            />
+          </section>
         </div>
       </div>
     </section>

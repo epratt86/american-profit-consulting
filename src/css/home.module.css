@@ -50,6 +50,9 @@
   .intro {
     display: none;
   }
+  #col-two {
+    margin-top: 1rem;
+  }
   .calc-wrapper {
     padding: 0;
   }

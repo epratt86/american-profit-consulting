@@ -120,7 +120,6 @@ const Contact = () => {
             </section>
           </div>
         </div>
-
         <div className={styles.bgPattern}></div>
       </div>
     </section>
