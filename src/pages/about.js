@@ -86,17 +86,22 @@ const About = () => {
       <Numbers />
       <section className="clients">
         <div className="center">
-          <Title title="client" subtitle="reviews" />
+          <Title title="clients" subtitle="funded" />
           <div className="row">
             <section className="reviews">
-              <ReviewCard />
-              <br />
-              <ReviewCard />
+              <ReviewCard
+                name="Mark Beach"
+                company="Compass Real Estate"
+                review="American Profit Consulting is amazing! I was introduced to them through a business colleague and Humberto was hands on with me the whole time. He worked day and night finding me the best insurance for my business and also my personal property.
+As a Real Estate professional, I meet hundreds of brokers and business professionals weekly, and I can hands down say that Humberto and American Profit Consulting are the best! I felt that my best interest and comfort through the process was always priority #1 next to my investments.
+I recommend Humberto and American Profit Consulting to all of my clients, friends, and family. They check in with me every quarter to make sure I am still happy. And one of the best parts is that I can call at anytime to ask them questions, knowing I am directly connected to my rep.
+American Profit Consulting, thank you for all you have done and still do for me. I am a forever client!"
+              />
             </section>
 
             <Video
-              videoSrcURL="https://www.youtube.com/embed/pteZYJyo05M"
-              videoTitle="Achilles Coffee Roasters Funded"
+              videoSrcURL="https://www.youtube.com/embed/diluqhgGMNg"
+              videoTitle="RGC General Engineering Funded"
             />
           </div>
         </div>

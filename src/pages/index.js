@@ -56,7 +56,6 @@ export default ({ data }) => (
             <br />
             <ReviewCard
               name="Dillon McCormick"
-              company="McCormick INC"
               review="I’ve had the pleasure of working with Humberto from American Profit Consulting and I would no doubt recommend his service to any business owner. His knowledge, guidance, and unbiased professional opinion are invaluable to the growth of a business. Do yourself a favor and give him a call."
             />
           </section>
