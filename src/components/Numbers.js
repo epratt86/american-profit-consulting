@@ -12,7 +12,7 @@ const Numbers = () => {
               delay={2}
               duration={2.75}
               start={0}
-              end={3.5}
+              end={3.9}
               decimals={2}
               suffix=" %"
             />
@@ -23,20 +23,9 @@ const Numbers = () => {
               delay={2}
               duration={2.75}
               start={0}
-              end={24}
-              decimals={0}
-              suffix=" hour"
-            />
-            <h4>funding</h4>
-          </div>
-          <div className={styles.counter}>
-            <CountUp
-              delay={2}
-              duration={2.75}
-              start={0}
               end={60}
               decimals={0}
-              suffix=" second"
+              suffix=" minute"
             />
             <h4>approval</h4>
           </div>
@@ -45,10 +34,10 @@ const Numbers = () => {
               delay={2}
               duration={4}
               start={0}
-              end={2}
-              decimals={1}
+              end={150}
+              decimals={0}
               prefix="$ "
-              suffix=" billion"
+              suffix=" million"
             />
             <h4>funded</h4>
           </div>
