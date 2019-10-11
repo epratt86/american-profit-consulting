@@ -17,10 +17,13 @@ const Contact = () => {
                 Contact us for a complimentary 30 minute consultation discovery
                 call.
               </p>
+              <br />
               <p>1340 Imperial Beach Blvd Ste 200,</p>
-              <p>Imperial Beach, California,</p>
-              <p> United States</p>
-              <p>619-836-0267</p>
+              <p>Imperial Beach, California</p>
+              <br />
+              <p>
+                Phone: <a href="tel:619-836-0267">619-836-0267</a>
+              </p>
             </div>
             <form
               name="contact"

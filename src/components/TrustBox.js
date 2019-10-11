@@ -26,7 +26,7 @@ const TrustBox = () => {
       <a
         href="https://www.trustpilot.com/review/americanprofitconsulting.com"
         target="_blank"
-        rel="noopener"
+        rel="noopener noreferrer"
       >
         {" "}
         Trustpilot
