@@ -40,8 +40,6 @@ export default ({ data }) => (
     </StyledHero>
     <Numbers />
     <Services />
-    <FeaturedIn />
-    <Cta />
     <section className="clients">
       <div className="center">
         <Title title="satisfied" subtitle="clients" />
@@ -79,6 +77,8 @@ export default ({ data }) => (
         </div>
       </div>
     </section>
+    <FeaturedIn />
+    <Cta />
   </Layout>
 )
 
