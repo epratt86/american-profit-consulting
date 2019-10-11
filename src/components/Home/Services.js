@@ -7,7 +7,7 @@ import styles from "../../css/services.module.css"
 const Services = () => {
   return (
     <section className={styles.services}>
-      <Title title="our" subtitle="services" />
+      <Title title="services" subtitle="offered" />
       <div className={styles.center}>
         {services.map((service, index) => {
           return (
@@ -22,11 +22,11 @@ const Services = () => {
       <div style={{ textAlign: "center" }}>
         <AniLink
           fade
-          to="/products"
+          to="/services"
           className="btn-primary"
           aria-label="View Products"
         >
-          View Products
+          our services
         </AniLink>
       </div>
     </section>

@@ -4,8 +4,8 @@ import Layout from "../components/Layout"
 import Title from "../components/Title"
 import StyledHero from "../components/StyledHero"
 import Numbers from "../components/Numbers"
-import Video from "../components/Video"
 import ReviewCard from "../components/ReviewCard"
+import SEO from "../components/SEO"
 import styles from "../css/about.module.css"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
@@ -35,6 +35,7 @@ const About = () => {
 
   return (
     <Layout>
+      <SEO title="About" />
       <StyledHero img={aboutHero.childImageSharp.fluid} />
       <section className={styles.about}>
         <Title title="proven" subtitle="experience" />
@@ -109,6 +110,11 @@ const About = () => {
                 name="Eric Pratt"
                 company="Web Developer - ePratt.net"
                 review="American Profit Consulting has everything you are looking for when trying to get your small business up and running. I highly recommend anyone in need of financing give Humberto a call."
+              />
+              <br />
+              <ReviewCard
+                name="Farah A"
+                review="American Profit Consulting is one of my top partner. Humberto Hernandez is a very experienced broker. He is going to find the best lender that meets your commercial financing need."
               />
             </section>
           </div>
