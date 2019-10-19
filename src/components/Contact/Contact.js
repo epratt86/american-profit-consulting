@@ -98,35 +98,7 @@ const Contact = () => {
               </div>
             </form>
           </div>
-          <div className={styles.col}>
-            <section className="reviews">
-              <ReviewCard
-                name="Kurt Bach"
-                company="Attitude Brewing Company"
-                review="Humberto really understands the needs of his clients. He is very capable of wadding through the complicated application processes and he will find you the right fit. We always felt we were his top priority. A complete pleasure to work with."
-              />
-              <br />
-              <ReviewCard
-                name="Carlos Hernandez"
-                review="I’m very grateful for American Profit Consulting. They helped me secure financing to help grow my business that i didn’t think was possible. I would recommend these guys to anyone and everyone."
-              />
-              <br />
-              <ReviewCard
-                name="Dillon McCormick"
-                review="I’ve had the pleasure of working with Humberto from American Profit Consulting and I would no doubt recommend his service to any business owner. His knowledge, guidance, and unbiased professional opinion are invaluable to the growth of a business. Do yourself a favor and give him a call."
-              />
-              <br />
-              <ReviewCard
-                name="Francesco Bucci"
-                review="Humberto is responsive, competent, personable and... he's always on the lookout for problems: because his favorite job is to find solutions."
-              />
-              <br />
-              <ReviewCard
-                name="Patrick Sanders"
-                review="Humberto was very professional and helped me purchase my commercial office with favorable terms. Would definitely recommend."
-              />
-            </section>
-          </div>
+          <div className={styles.col}></div>
         </div>
         <div className={styles.bgPattern}></div>
       </div>

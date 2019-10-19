@@ -4,7 +4,6 @@ import Layout from "../components/Layout"
 import Title from "../components/Title"
 import StyledHero from "../components/StyledHero"
 import Numbers from "../components/Numbers"
-import ReviewCard from "../components/ReviewCard"
 import SEO from "../components/SEO"
 import styles from "../css/about.module.css"
 import { useStaticQuery, graphql } from "gatsby"
@@ -86,37 +85,6 @@ const About = () => {
                 </AniLink>
               </article>
             </div>
-          </div>
-          <h2 className={styles.reviewHeadline}>see what others are saying</h2>
-          <div className={styles.reviews}>
-            <section id={styles.colOne}>
-              <ReviewCard
-                name="Mark Beach"
-                company="Proven Real Estate"
-                review="American Profit Consulting is amazing! I was introduced to them through a business colleague and Humberto was hands on with me the whole time. He worked day and night finding me the best insurance for my business and also my personal property.
-                As a Real Estate, I meet hundreds of brokers and business professionals weekly, and I can hands down say that Humberto and American Profit Consulting are the best! I felt that my best interest and comfort through the process was always priority #1 next to my investments.
-                I recommend Humberto and American Profit Consulting to all of my clients, friends, and family. They check in with me every quarter to make sure I am still happy. And one of the best parts is that I can call at anytime to ask them questions, knowing I am directly connected to my rep.
-                American Profit Consulting, thank you for all you have done and still do for me. I am a forever client!"
-              />
-              <br />
-            </section>
-            <section id={styles.colTwo}>
-              <ReviewCard
-                name="Jessie Reyes"
-                review="APC was able to get my loan request approved after it had been declined by my own bank. I highly recommend using APC!"
-              />
-              <br />
-              <ReviewCard
-                name="Eric Pratt"
-                company="Web Developer - ePratt.net"
-                review="American Profit Consulting has everything you are looking for when trying to get your small business up and running. I highly recommend anyone in need of financing give Humberto a call."
-              />
-              <br />
-              <ReviewCard
-                name="Farah A"
-                review="American Profit Consulting is one of my top partner. Humberto Hernandez is a very experienced broker. He is going to find the best lender that meets your commercial financing need."
-              />
-            </section>
           </div>
         </div>
         <div className={styles.bgPattern}></div>

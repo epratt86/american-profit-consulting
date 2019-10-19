@@ -2,7 +2,6 @@ import React from "react"
 import styles from "../css/footer.module.css"
 import links from "../constants/links"
 import socialIcons from "../constants/social-icons"
-import TrustBox from "../components/TrustBox"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 import logo from "../images/apc.png"
 
@@ -44,7 +43,6 @@ const Footer = () => {
               )
             })}
           </div>
-          <TrustBox />
         </div>
         <div className={styles.disclaimers}>
           <h6 style={{ marginTop: "1rem" }}>

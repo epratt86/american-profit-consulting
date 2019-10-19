@@ -60,6 +60,7 @@ a {
   cursor: pointer;
   font-family: "Lato", Arial, Helvetica, sans-serif;
 }
+
 .btn-white:hover {
   background: var(--mainWhite);
   color: var(--primaryColor);
@@ -86,6 +87,10 @@ a {
 
 .clients h4 {
   padding-top: 3rem;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2rem;
+  color: var(--mainBlack);
 }
 
 .clients .row {
@@ -104,6 +109,9 @@ a {
   }
 }
 @media screen and (max-width: 500px) {
+  .clients h4 {
+    font-size: 1.7rem;
+  }
   .clients .row {
     display: block;
   }

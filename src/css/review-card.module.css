@@ -2,12 +2,12 @@
   background: var(--mainWhite);
   padding: 1rem;
   box-shadow: var(--lightShadow);
+  margin: 1rem;
 }
 
 .row {
   display: grid;
   grid-template-columns: 1fr 4fr;
-  min-height: 240px;
 }
 
 .star {
