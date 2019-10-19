@@ -68,11 +68,11 @@ export default ({ data }) => (
               review="Humberto is an excellent consultant. I couldn’t think of anyone more knowledgeable and competent as him. He listens to understand your needs and delivers. Next time I need funding or guidance he’ll be the first I call without a doubt."
             />
             <br />
-            <ReviewCard
+            {/* <ReviewCard
               name="Ali Horuz"
               company="VIP Pedicabs"
               review="Great experience working with Humberto l higly recommend him."
-            />
+            /> */}
           </section>
         </div>
       </div>
