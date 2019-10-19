@@ -25,6 +25,8 @@ const Contact = () => {
                 Phone: <a href="tel:619-836-0267">619-836-0267</a>
               </p>
             </div>
+          </div>
+          <div className={styles.col}>
             <form
               name="contact"
               className={styles.form}
@@ -98,7 +100,6 @@ const Contact = () => {
               </div>
             </form>
           </div>
-          <div className={styles.col}></div>
         </div>
         <div className={styles.bgPattern}></div>
       </div>
