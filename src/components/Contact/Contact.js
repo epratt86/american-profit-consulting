@@ -2,7 +2,6 @@ import React from "react"
 import styles from "../../css/contact.module.css"
 import { FaUser, FaEnvelope, FaPhone, FaRegCommentDots } from "react-icons/fa"
 import Title from "../Title"
-import ReviewCard from "../ReviewCard"
 
 const Contact = () => {
   return (
