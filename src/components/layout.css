@@ -111,7 +111,7 @@ a {
 
 .modal-main {
   position: fixed;
-  background: #d8d8d8;
+  background: var(--mainWhite);
   color: var(--primaryColor);
   width: 80%;
   height: auto;
