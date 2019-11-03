@@ -115,6 +115,15 @@
   .borrow {
     white-space: normal;
   }
+  .image {
+    display: none;
+  }
+  .modal-row {
+    display: block;
+  }
+  .form {
+    max-width: 100%;
+  }
 }
 
 @media screen and (max-width: 500px) {
