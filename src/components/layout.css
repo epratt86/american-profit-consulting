@@ -157,6 +157,9 @@ a {
   .clients .row {
     display: block;
   }
+  .modal-main {
+    width: 90%;
+  }
 }
 
 /* override slider css */
