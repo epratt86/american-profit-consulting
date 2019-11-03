@@ -13,42 +13,44 @@ import SEO from "../components/SEO"
 import styles from "../css/home.module.css"
 import ReviewSlider from "../components/ReviewSlider"
 
-export default ({ data }) => (
-  <Layout>
-    <SEO title="Home" description="this is my description" />
-    <StyledHero home="true" img={data.defaultBcg.childImageSharp.fluid}>
-      <div className={styles.landing}>
-        <Banner>
-          <div className={styles.intro}>
-            <h1>not just another broker</h1>
-            <h2>A consultant with specialized knowledge</h2>
-            <AniLink
-              fade
-              to="/products"
-              className="btn-white"
-              aria-label="products"
-            >
-              what we offer
-            </AniLink>
+export default ({ data }) => {
+  return (
+    <Layout>
+      <SEO title="Home" description="this is my description" />
+      <StyledHero home="true" img={data.defaultBcg.childImageSharp.fluid}>
+        <div className={styles.landing}>
+          <Banner>
+            <div className={styles.intro}>
+              <h1>not just another broker</h1>
+              <h2>A consultant with specialized knowledge</h2>
+              <AniLink
+                fade
+                to="/contact"
+                className="btn-white"
+                aria-label="contact"
+              >
+                Get In Touch
+              </AniLink>
+            </div>
+          </Banner>
+          <div className={styles.calcWrapper}>
+            <LoanCalculator />
           </div>
-        </Banner>
-        <div className={styles.calcWrapper}>
-          <LoanCalculator />
         </div>
-      </div>
-    </StyledHero>
-    <Numbers />
-    <Services />
-    <section className="clients">
-      <div className="center">
-        <h4>see what others are saying</h4>
-        <ReviewSlider />
-      </div>
-    </section>
-    <FeaturedIn />
-    <Cta />
-  </Layout>
-)
+      </StyledHero>
+      <Numbers />
+      <Services />
+      <section className="clients">
+        <div className="center">
+          <h4>see what others are saying</h4>
+          <ReviewSlider />
+        </div>
+      </section>
+      <FeaturedIn />
+      <Cta />
+    </Layout>
+  )
+}
 
 export const query = graphql`
   {

@@ -3,7 +3,7 @@
   margin: 0 auto;
 }
 .featured {
-  background: var(--mainWhite);
+  background: #ffa603;
   padding: 2rem 0;
   text-align: center;
 }
