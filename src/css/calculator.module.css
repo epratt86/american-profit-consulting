@@ -134,4 +134,7 @@
   .title {
     display: none;
   }
+  .form {
+    margin-top: -40px;
+  }
 }
