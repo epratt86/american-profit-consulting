@@ -125,14 +125,19 @@ a {
   justify-content: center;
   align-items: center;
   margin-left: auto;
-  padding: 0.6rem;
-  font-size: 1rem;
-  background: var(--primaryColor);
-  color: var(--mainWhite);
+  margin-right: 2px;
+  margin-top: 2px;
+  padding: 0.25rem 0.5rem;
+  font-size: 2rem;
+  background: var(--mainGrey);
+  color: var(--primaryColor);
+  border: 1px solid var(--primaryColor);
+  transition: all 200ms;
 }
 
 .modal-button:hover {
-  opacity: 0.9;
+  background: var(--primaryColor);
+  color: var(--mainGrey);
 }
 
 .display-block {
