@@ -90,6 +90,5 @@
   }
   .nav-social-links a:hover {
     color: var(--darkGrey);
-    transform: translateY(-3px);
   }
 }
