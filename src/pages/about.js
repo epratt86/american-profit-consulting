@@ -34,7 +34,10 @@ const About = () => {
 
   return (
     <Layout>
-      <SEO title="About" />
+      <SEO
+        title="About"
+        description="As a former business banker/lender, I have a deep passion and regard for business but have spent the last 14 years working for business banks under their agenda. Now I know the truth..."
+      />
       <StyledHero img={aboutHero.childImageSharp.fluid} />
       <section className={styles.about}>
         <Title title="proven" subtitle="experience" />

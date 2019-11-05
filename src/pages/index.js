@@ -16,7 +16,10 @@ import ReviewSlider from "../components/ReviewSlider"
 export default ({ data }) => {
   return (
     <Layout>
-      <SEO title="Home" description="this is my description" />
+      <SEO
+        title="Home"
+        description="Not just another broker, a consultant with specialized knowledge. Proven experience with over 15 years of financial services and expertise to help make your business thrive."
+      />
       <StyledHero home="true" img={data.defaultBcg.childImageSharp.fluid}>
         <div className={styles.landing}>
           <Banner>

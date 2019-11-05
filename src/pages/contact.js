@@ -9,7 +9,10 @@ import Numbers from "../components/Numbers"
 const contact = ({ data }) => {
   return (
     <Layout>
-      <SEO title="Contact" />
+      <SEO
+        title="Contact"
+        description="Free thirty minute consultation. Contact us for a complimentary discovery call."
+      />
       <StyledHero img={data.contactBcg.childImageSharp.fluid} />
       <Contact />
       <Numbers />

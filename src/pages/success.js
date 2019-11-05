@@ -8,9 +8,12 @@ import SEO from "../components/SEO"
 const success = () => {
   return (
     <Layout>
-      <SEO title="Success" />
+      <SEO
+        title="Success"
+        description="Thank you for your interest in American Profit Financial."
+      />
       <header className={styles.error}>
-        <Banner title="Success! Thank you for you interest. We will be getting back to you soon">
+        <Banner title="Success! Thank you for your interest. We will be getting back to you soon">
           <AniLink fade to="/" className="btn-white">
             back to home page
           </AniLink>

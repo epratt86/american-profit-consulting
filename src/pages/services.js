@@ -8,7 +8,10 @@ import ProductsList from "../components/Products/ProductsList"
 const products = ({ data }) => {
   return (
     <Layout>
-      <SEO title="Services" />
+      <SEO
+        title="Services"
+        description="We offer multiple services to fit your financial needs. We provide help with Small Business Financing, Bookkeeping and Accounting, Commercial Insurance, and Credit Card Processing."
+      />
       <StyledHero img={data.productsBkg.childImageSharp.fluid} />
       <ProductsList />
     </Layout>

@@ -8,7 +8,10 @@ import SEO from "../components/SEO"
 const error = () => {
   return (
     <Layout>
-      <SEO title="Page Not Found" />
+      <SEO
+        title="Page Not Found"
+        description="Sorry, this page has not been found."
+      />
       <header className={styles.error}>
         <Banner title="oops it's a dead end">
           <AniLink fade to="/" className="btn-white">

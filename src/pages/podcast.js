@@ -8,7 +8,10 @@ import styles from "../css/podcast.module.css"
 const podcast = ({ data }) => {
   return (
     <Layout>
-      <SEO title="Podcast" />
+      <SEO
+        title="Podcast"
+        description="Podcast will be coming soon. Check back for the latest episodes."
+      />
       <StyledHero img={data.podcastBcg.childImageSharp.fluid} />
       <section className={styles.podcast}>
         <Title title="apc" subtitle="podcast" />
