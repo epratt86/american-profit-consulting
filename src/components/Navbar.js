@@ -1,9 +1,8 @@
 import React, { useState } from "react"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 import styles from "../css/navbar.module.css"
-import { FaAlignRight } from "react-icons/fa"
+import { FaAlignRight, FaPhoneSquare } from "react-icons/fa"
 import links from "../constants/links"
-import socialIcons from "../constants/social-icons"
 import logo from "../images/apc.png"
 
 const Navbar = () => {
@@ -51,8 +50,14 @@ const Navbar = () => {
             )
           })}
         </ul>
-        <div className={styles.navSocialLinks}>
-          {socialIcons.map((icon, index) => {
+        <div
+          className={
+            isOpen
+              ? `${styles.navCallNow} ${styles.showCall}`
+              : `${styles.navCallNow}`
+          }
+        >
+          {/* {socialIcons.map((icon, index) => {
             return (
               <a
                 key={index}
@@ -64,7 +69,14 @@ const Navbar = () => {
                 {icon.icon}
               </a>
             )
-          })}
+          })} */}
+          <span>
+            Call Now&nbsp;
+            <FaPhoneSquare />
+          </span>
+          <a href="tel:619-836-0267" style={{ fontSize: "14px", margin: "0" }}>
+            619-836-0267
+          </a>
         </div>
       </div>
     </nav>
