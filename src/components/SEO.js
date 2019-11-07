@@ -28,7 +28,7 @@ const SEO = ({ title, description }) => {
       <meta property="og:url" content={`${data.site.siteMetadata.siteUrl}`} />
       <meta
         property="og:image"
-        content="https://americanprofitconsulting.com/thumbnail.jpg"
+        content="https://www.americanprofitconsulting.com/thumbnail.jpg"
       />
       <meta keywords={`${data.site.siteMetadata.keywords}`} />
       <meta property="og:site_name" content="American Profit Consulting" />
@@ -47,12 +47,12 @@ const SEO = ({ title, description }) => {
       <meta
         name="twitter:image"
         property="twitter:image"
-        content="https://americanprofitconsulting.com/thumbnail.jpg"
+        content="https://www.americanprofitconsulting.com/thumbnail.jpg"
       />
       <meta name="twitter:image:alt" content="American Profit Consulting" />
       <meta name="twitter:site" content="@the_bankwhisper" />
       <meta name="robots" content="index, follow" />
-      <link rel="canonical" href="https://americanprofitconsulting.com/" />
+      <link rel="canonical" href="https://www.americanprofitconsulting.com/" />
       <script
         type="text/javascript"
         src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js"
