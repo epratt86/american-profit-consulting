@@ -11,7 +11,7 @@ const ProductsCard = ({ product }) => {
         <Image fluid={image.fluid} className={styles.img} alt="product card" />
         <Anilink
           fade
-          to={`/products/${slug}`}
+          to={`/services/${slug}`}
           className={styles.link}
           aria-label="Read More"
         >

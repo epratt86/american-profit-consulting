@@ -31,7 +31,7 @@ exports.createPages = async function({ actions, graphql }) {
   })
   data.products.edges.forEach(edge => {
     actions.createPage({
-      path: `products/${edge.node.slug}`,
+      path: `services/${edge.node.slug}`,
       component: path.resolve("./src/templates/products-template.js"),
       context: {
         slug: edge.node.slug,
