@@ -16,7 +16,7 @@ module.exports = {
     author: "Eric Pratt",
     twitterUsername: "@the_bankwhisper",
     image: "/defaultBkg.jpg",
-    siteUrl: "https://www.americanprofitconsulting.com",
+    siteUrl: "https://www.americanprofitconsulting.com/",
     keywords:
       "American Profit Consulting, APC, broker, consultant, finance, financial services, San Diego, Coronado, Imperial Beach",
   },
