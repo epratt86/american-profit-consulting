@@ -12,6 +12,7 @@ import { graphql } from "gatsby"
 import SEO from "../components/SEO"
 import styles from "../css/home.module.css"
 import ReviewSlider from "../components/ReviewSlider"
+import social from "../constants/social-icons"
 
 export default ({ data }) => {
   return (
@@ -42,6 +43,31 @@ export default ({ data }) => {
         </div>
       </StyledHero>
       <Numbers />
+      <section
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          fontSize: "2.5rem",
+          padding: "1rem 1rem",
+          background: "var(--mainBlack)",
+        }}
+      >
+        {social.map((icon, index) => {
+          return (
+            <a
+              key={index}
+              href={icon.url}
+              target="_blank"
+              className="social-icon"
+              rel="noopener noreferrer"
+              aria-label={icon.name}
+            >
+              {icon.icon}
+            </a>
+          )
+        })}
+      </section>
       <Services />
       <section className="clients">
         <div className="center">

@@ -147,6 +147,15 @@ a {
 .display-none {
   display: none;
 }
+
+.social-icon {
+  color: var(--offWhite);
+  margin: 0 6px;
+  transition: var(--mainTransition);
+}
+.social-icon:hover {
+  color: var(--primaryColor);
+}
 @media screen and (max-width: 768px) {
   .center {
     width: 85vw;

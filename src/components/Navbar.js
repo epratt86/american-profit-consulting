@@ -57,19 +57,6 @@ const Navbar = () => {
               : `${styles.navCallNow}`
           }
         >
-          {/* {socialIcons.map((icon, index) => {
-            return (
-              <a
-                key={index}
-                href={icon.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label={icon.name}
-              >
-                {icon.icon}
-              </a>
-            )
-          })} */}
           <span>
             Call Now&nbsp;
             <FaPhoneSquare />
