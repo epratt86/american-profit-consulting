@@ -63,7 +63,7 @@
   text-transform: uppercase;
 }
 .nav-links a:hover {
-  color: var(--darkGrey);
+  opacity: 0.5;
 }
 .nav-call-now {
   overflow: hidden;
