@@ -149,12 +149,13 @@ a {
 }
 
 .social-icon {
+  display: flex;
   color: var(--offWhite);
   margin: 0 6px;
   transition: var(--mainTransition);
 }
 .social-icon:hover {
-  color: var(--primaryColor);
+  color: #648fa9;
 }
 @media screen and (max-width: 768px) {
   .center {
