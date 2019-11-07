@@ -28,7 +28,7 @@ const SEO = ({ title, description }) => {
       <meta property="og:url" content={`${data.site.siteMetadata.siteUrl}`} />
       <meta
         property="og:image"
-        content="https://american-profit-consulting.netlify.com/thumbnail.jpg"
+        content="https://americanprofitconsulting.com/thumbnail.jpg"
       />
       <meta keywords={`${data.site.siteMetadata.keywords}`} />
       <meta property="og:site_name" content="American Profit Consulting" />
@@ -47,7 +47,7 @@ const SEO = ({ title, description }) => {
       <meta
         name="twitter:image"
         property="twitter:image"
-        content="https://american-profit-consulting.netlify.com/thumbnail.jpg"
+        content="https://americanprofitconsulting.com/thumbnail.jpg"
       />
       <meta name="twitter:image:alt" content="American Profit Consulting" />
       <meta name="twitter:site" content="@the_bankwhisper" />
