@@ -43,19 +43,22 @@ const Services = () => {
               {services.edges[0].node.name}
             </h4>
             <p>
-              Fact: Over 70% of business loan applications are declined by banks
-              and lenders. Why? We firmly believe that the reason the decline
-              rate is so high is because clients are uneducated and
-              underassisted in how to structure their financials and their loan
-              request, let alone navigate the complex banking system. Let me
-              show you how to get the funding you need.
+              <strong>
+                Fact: Over 70% of business loan applications are declined by
+                banks and lenders.
+              </strong>{" "}
+              Why? We firmly believe that the reason the decline rate is so high
+              is because clients are uneducated and underassisted in how to
+              structure their financials and their loan request, let alone
+              navigate the complex banking system. Let me show you how to get
+              the funding you need.
             </p>
             <AniLink
               fade
               to={`/services/${services.edges[0].node.slug}`}
               className="btn-primary"
             >
-              Learn More
+              Financial Services
             </AniLink>
           </div>
         </article>
@@ -76,7 +79,7 @@ const Services = () => {
               to={`/services/${services.edges[1].node.slug}`}
               className="btn-primary"
             >
-              Learn More
+              Accounting Services
             </AniLink>
           </div>
           <div className={styles.serviceImage}>
@@ -111,7 +114,7 @@ const Services = () => {
               to={`/services/${services.edges[2].node.slug}`}
               className="btn-primary"
             >
-              Learn More
+              Insurance Services
             </AniLink>
           </div>
         </article>
@@ -132,7 +135,7 @@ const Services = () => {
               to={`/services/${services.edges[3].node.slug}`}
               className="btn-primary"
             >
-              Learn More
+              Credit Card Services
             </AniLink>
           </div>
           <div className={styles.serviceImage}>
