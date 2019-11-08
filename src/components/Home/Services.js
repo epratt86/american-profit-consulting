@@ -27,7 +27,7 @@ const getServices = graphql`
 const Services = () => {
   const { services } = useStaticQuery(getServices)
   return (
-    <section className={styles.services}>
+    <section className={styles.services} id="services">
       <Title title="services" subtitle="offered" />
       <div className={styles.center}>
         <article className={styles.serviceA}>

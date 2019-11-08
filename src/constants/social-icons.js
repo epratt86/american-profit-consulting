@@ -4,6 +4,7 @@ import {
   FaInstagram,
   FaFacebookSquare,
   FaLinkedin,
+  FaYoutubeSquare,
 } from "react-icons/fa"
 
 export default [
@@ -26,5 +27,10 @@ export default [
     icon: <FaLinkedin />,
     url: "https://www.linkedin.com/in/humberto-hernandez-jr/",
     name: "Linkedin",
+  },
+  {
+    icon: <FaYoutubeSquare />,
+    url: "https://www.youtube.com/channel/UC2Y7qu05C_n1lLZlwIq1y_Q",
+    name: "YouTube",
   },
 ]

@@ -4,10 +4,6 @@ export default [
     text: "about",
   },
   {
-    path: "/services",
-    text: "services",
-  },
-  {
     path: "/podcast",
     text: "podcast",
   },
