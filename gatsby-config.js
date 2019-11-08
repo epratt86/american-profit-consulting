@@ -15,7 +15,7 @@ module.exports = {
       "Not just another broker, a consultant with specialized knowledge. Proven experience with over 15 years of financial services and expertise to help make your business thrive.",
     author: "Eric Pratt",
     twitterUsername: "@the_bankwhisper",
-    image: "/defaultBkg.jpg",
+    image: "/screenshot.jpg",
     siteUrl: "https://www.americanprofitconsulting.com/",
     keywords:
       "American Profit Consulting, APC, broker, consultant, finance, financial services, San Diego, Coronado, Imperial Beach",

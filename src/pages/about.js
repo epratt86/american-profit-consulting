@@ -74,7 +74,7 @@ const About = () => {
                 </h5>
                 <p>
                   With over 15 years of banking experience and having funded
-                  over $100,000,000 in business loans, I will use my expertise
+                  over $150,000,000 in business loans, I will use my expertise
                   to navigate the entire loan process and negotiate excellent
                   terms using the same information and knowledge that banks use.
                 </p>
