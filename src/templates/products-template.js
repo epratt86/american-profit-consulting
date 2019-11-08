@@ -42,8 +42,8 @@ const productsTemplate = ({ data }) => {
           <article className={styles.post}>
             {documentToReactComponents(json, options)}
           </article>
-          <AniLink fade to="/#services" className="btn-primary">
-            all services
+          <AniLink fade to="/" className="btn-primary">
+            back home
           </AniLink>
         </div>
       </section>
