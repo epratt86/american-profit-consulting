@@ -11,7 +11,7 @@ import Img from "gatsby-image"
 
 const getAbout = graphql`
   query aboutImage {
-    aboutImage: file(relativePath: { eq: "humberto.jpg" }) {
+    aboutImage: file(relativePath: { eq: "humberto-kids.jpg" }) {
       childImageSharp {
         fluid {
           ...GatsbyImageSharpFluid_tracedSVG
