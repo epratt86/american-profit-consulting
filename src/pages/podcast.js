@@ -16,7 +16,14 @@ const podcast = ({ data }) => {
       <section className={styles.podcast}>
         <Title title="apc" subtitle="podcast" />
         <div className="center">
-          <h3>Podcast section coming soon! Check back for latest episodes.</h3>
+          <iframe
+            src="https://open.spotify.com/embed-podcast/show/2UW2l5RyfcpjBgFh5WPRWy"
+            width="100%"
+            height="232"
+            frameborder="0"
+            allowtransparency="true"
+            allow="encrypted-media"
+          ></iframe>
           <br />
           <br />
           <br />
