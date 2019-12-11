@@ -1,6 +1,5 @@
 import React from "react"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
-import Title from "../Title"
 import Image from "gatsby-image"
 import { useStaticQuery, graphql } from "gatsby"
 import { documentToReactComponents } from "@contentful/rich-text-react-renderer"
@@ -41,8 +40,8 @@ const Services = () => {
 
   return (
     <section className={styles.services} id="services">
-      <Title title="services" subtitle="offered" />
       <div className={styles.center}>
+        <h2 className={styles.title}>We help business owners like you</h2>
         <article className={styles.serviceA}>
           <div className={styles.serviceImage}>
             <Image
