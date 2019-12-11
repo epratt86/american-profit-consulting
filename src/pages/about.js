@@ -45,7 +45,7 @@ const getAbout = graphql`
 
 const About = () => {
   // name must match name of query
-  const { aboutImage, aboutHero, content } = useStaticQuery(getAbout)
+  const { aboutHero, content } = useStaticQuery(getAbout)
   const { featuredImage, textContent } = content.edges[0].node
 
   const options = {

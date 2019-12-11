@@ -4,15 +4,16 @@
   background: var(--offWhite);
   z-index: 0;
 }
-.about-img {
-  margin: 3rem 0;
-}
+
 .about-info {
   margin-top: 3rem;
   z-index: 10;
 }
 .about-img {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .about-img img {
