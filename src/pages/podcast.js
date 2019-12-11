@@ -17,12 +17,12 @@ const podcast = ({ data }) => {
         <Title title="apc" subtitle="podcast" />
         <div className="center">
           <iframe
-            src="https://open.spotify.com/embed-podcast/show/2UW2l5RyfcpjBgFh5WPRWy"
+            sandbox="allow-same-origin allow-scripts allow-top-navigation allow-popups"
+            scrolling="no"
             width="100%"
-            height="232"
+            height="185"
             frameborder="0"
-            allowtransparency="true"
-            allow="encrypted-media"
+            src="https://embed.radiopublic.com/e?if=straight-outta-cash-flow-GOpYY7&ge=s1!d46dd6e7d32a555033c5e87f0824bd059df121ab"
           ></iframe>
           <br />
           <br />
