@@ -3,6 +3,7 @@ import AniLink from "gatsby-plugin-transition-link/AniLink"
 import Title from "../Title"
 import Image from "gatsby-image"
 import { useStaticQuery, graphql } from "gatsby"
+import { documentToReactComponents } from "@contentful/rich-text-react-renderer"
 import styles from "../../css/services.module.css"
 
 const getServices = graphql`
@@ -18,6 +19,9 @@ const getServices = graphql`
               ...GatsbyContentfulFluid
             }
           }
+          homeIntroText {
+            json
+          }
         }
       }
     }
@@ -26,6 +30,15 @@ const getServices = graphql`
 
 const Services = () => {
   const { services } = useStaticQuery(getServices)
+
+  const options = {
+    renderNode: {
+      "embedded-asset-block": node => {
+        return <div></div>
+      },
+    },
+  }
+
   return (
     <section className={styles.services} id="services">
       <Title title="services" subtitle="offered" />
@@ -39,26 +52,23 @@ const Services = () => {
             />
           </div>
           <div className={styles.serviceBody}>
-            <h4 className={styles.serviceTitle}>
+            <h3 className={styles.serviceTitle}>
               {services.edges[0].node.name}
-            </h4>
-            <p>
-              <strong>
-                Fact: Over 70% of business loan applications are declined by
-                banks and lenders.
-              </strong>{" "}
-              Why? We firmly believe that the reason the decline rate is so high
-              is because clients are uneducated and underassisted in how to
-              structure their financials and their loan request, let alone
-              navigate the complex banking system. Let me show you how to get
-              the funding you need.
-            </p>
+            </h3>
+            <div>
+              {documentToReactComponents(
+                services.edges[0].node.homeIntroText.json,
+                options
+              )}
+            </div>
+
             <AniLink
               fade
-              to={`/services/${services.edges[0].node.slug}`}
+              // to={`/services/${services.edges[0].node.slug}`}
+              to="/contact"
               className="btn-primary"
             >
-              Financial Services
+              More Info
             </AniLink>
           </div>
         </article>
@@ -67,19 +77,19 @@ const Services = () => {
             <h4 className={styles.serviceTitle}>
               {services.edges[1].node.name}
             </h4>
-            <p>
-              Business operations can be complex. At American Profit Consulting,
-              we make it our priority to understand your company and the
-              exposures that you face. We take a practical & hands on approach
-              to identifying areas of concern, and then work with you to
-              eliminate and/or mitigate risk while lowering your overhead.
-            </p>
+            <div>
+              {documentToReactComponents(
+                services.edges[1].node.homeIntroText.json,
+                options
+              )}
+            </div>
             <AniLink
               fade
-              to={`/services/${services.edges[1].node.slug}`}
+              // to={`/services/${services.edges[1].node.slug}`}
+              to="/contact"
               className="btn-primary"
             >
-              Accounting Services
+              Find Out How
             </AniLink>
           </div>
           <div className={styles.serviceImage}>
@@ -102,19 +112,19 @@ const Services = () => {
             <h4 className={styles.serviceTitle}>
               {services.edges[2].node.name}
             </h4>
-            <p>
-              As your business grows, you need the tools and know-how to help
-              improve efficiency and profitability. Grow and optimize your
-              business with the guidence to help you succeed. American Profit
-              Consulting will help you find the right merchants to process
-              payments from anywhere.
-            </p>
+            <div>
+              {documentToReactComponents(
+                services.edges[2].node.homeIntroText.json,
+                options
+              )}
+            </div>
             <AniLink
               fade
-              to={`/services/${services.edges[2].node.slug}`}
+              // to={`/services/${services.edges[2].node.slug}`}
+              to="/contact"
               className="btn-primary"
             >
-              Insurance Services
+              Learn More
             </AniLink>
           </div>
         </article>
@@ -123,19 +133,19 @@ const Services = () => {
             <h4 className={styles.serviceTitle}>
               {services.edges[3].node.name}
             </h4>
-            <p>
-              No matter how much revenue you can generate or how strong your
-              balance sheet may be, the simple reality is that the only
-              businesses that survive and thrive are those that can consistently
-              find ways to lower overhead and increase their cash flow over long
-              periods of time.
-            </p>
+            <div>
+              {documentToReactComponents(
+                services.edges[3].node.homeIntroText.json,
+                options
+              )}
+            </div>
             <AniLink
               fade
-              to={`/services/${services.edges[3].node.slug}`}
+              // to={`/services/${services.edges[3].node.slug}`}
+              to="/contact"
               className="btn-primary"
             >
-              Credit Card Services
+              Discover How
             </AniLink>
           </div>
           <div className={styles.serviceImage}>

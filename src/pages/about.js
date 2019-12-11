@@ -56,8 +56,6 @@ const About = () => {
     },
   }
 
-  console.log(textContent)
-
   return (
     <Layout>
       <SEO
