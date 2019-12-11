@@ -16,7 +16,7 @@ const Numbers = () => {
               decimals={2}
               suffix=" %"
             />
-            <h4>rates</h4>
+            <h4>rates*</h4>
           </div>
           <div className={styles.counter}>
             <CountUp

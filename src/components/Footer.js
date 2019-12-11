@@ -47,6 +47,8 @@ const Footer = () => {
         <div className={styles.disclaimers}>
           <h6 style={{ marginTop: "1rem" }}>
             <small>*BANK PARTNERS FEATURED IN THESE SITES.</small>
+            <br />
+            <small>*rates as low as 3.9%</small>
           </h6>
           <p>
             The opporator of this website is NOT a lender, does not make offers
