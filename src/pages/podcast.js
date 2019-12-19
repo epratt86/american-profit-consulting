@@ -17,6 +17,14 @@ const podcast = ({ data }) => {
         <Title title="apc" subtitle="podcast" />
         <div className="center">
           <iframe
+            sandbox="allow-same-origin allow-scripts allow-top-navigation allow-popups allow-forms"
+            scrolling="no"
+            width="100%"
+            height="185"
+            frameborder="0"
+            src="https://embed.radiopublic.com/e?if=straight-outta-cash-flow-GOpYY7&ge=s1!a446aeacb8e1b2aa7337424dcceb8b785c2c3e22"
+          ></iframe>
+          <iframe
             sandbox="allow-same-origin allow-scripts allow-top-navigation allow-popups"
             scrolling="no"
             width="100%"
