@@ -22,6 +22,14 @@ const podcast = ({ data }) => {
             width="100%"
             height="185"
             frameborder="0"
+            src="https://embed.radiopublic.com/e?if=straight-outta-cash-flow-GOpYY7&ge=s1!d7c1d6b2b77bf02078b49f99abbf9ace68cc07c1"
+          ></iframe>
+          <iframe
+            sandbox="allow-same-origin allow-scripts allow-top-navigation allow-popups allow-forms"
+            scrolling="no"
+            width="100%"
+            height="185"
+            frameborder="0"
             src="https://embed.radiopublic.com/e?if=straight-outta-cash-flow-GOpYY7&ge=s1!a446aeacb8e1b2aa7337424dcceb8b785c2c3e22"
           ></iframe>
           <iframe
