@@ -42,20 +42,11 @@
 }
 
 @media screen and (max-width: 500px) {
-  .landing {
-    display: block;
-    margin: 0 auto;
-    width: 100%;
-    height: 700px;
-  }
-  .intro {
+  .calc-wrapper {
     display: none;
   }
-  #col-two {
-    margin-top: 1rem;
-  }
-  .calc-wrapper {
-    padding: 0;
+  .intro {
+    text-align: center;
   }
 }
 
