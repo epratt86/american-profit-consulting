@@ -12,12 +12,13 @@
   text-align: left;
 }
 .intro h1 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   margin-bottom: 1rem;
 }
 .intro h2 {
   padding: 0 1rem;
   margin-bottom: 2rem;
+  font-size: 1.3rem;
 }
 
 .intro a {

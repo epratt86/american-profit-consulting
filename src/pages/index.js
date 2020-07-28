@@ -25,15 +25,15 @@ export default ({ data }) => {
         <div className={styles.landing}>
           <Banner>
             <div className={styles.intro}>
-              <h1>not just another broker</h1>
-              <h2>A consultant with specialized knowledge</h2>
+              <h1>Your SBA Disaster Loan Expert</h1>
+              <h2>Helping Lenders Get Approved All Across San Diego</h2>
               <AniLink
                 fade
                 to="/contact"
                 className="btn-white"
                 aria-label="contact"
               >
-                Get In Touch
+                Get Funded
               </AniLink>
             </div>
           </Banner>

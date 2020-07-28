@@ -17,6 +17,13 @@ const podcast = ({ data }) => {
         <Title title="apc" subtitle="podcast" />
         <div className="center">
           <iframe
+            src="https://anchor.fm/straightouttacashflow/embed"
+            height="102px"
+            width="400px"
+            frameborder="0"
+            scrolling="no"
+          ></iframe>
+          {/* <iframe
             sandbox="allow-same-origin allow-scripts allow-top-navigation allow-popups allow-forms"
             scrolling="no"
             width="100%"
@@ -39,7 +46,7 @@ const podcast = ({ data }) => {
             height="185"
             frameborder="0"
             src="https://embed.radiopublic.com/e?if=straight-outta-cash-flow-GOpYY7&ge=s1!d46dd6e7d32a555033c5e87f0824bd059df121ab"
-          ></iframe>
+          ></iframe> */}
           <br />
           <br />
           <br />

@@ -61,8 +61,8 @@ const Navbar = () => {
             Call Now&nbsp;
             <FaPhoneSquare />
           </span>
-          <a href="tel:619-836-0267" style={{ fontSize: "14px", margin: "0" }}>
-            619-836-0267
+          <a href="tel:619-200-0351" style={{ fontSize: "14px", margin: "0" }}>
+            619-200-0351
           </a>
         </div>
       </div>

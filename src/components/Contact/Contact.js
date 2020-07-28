@@ -17,11 +17,11 @@ const Contact = () => {
                 call.
               </p>
               <br />
-              <p>1340 Imperial Beach Blvd Ste 200,</p>
-              <p>Imperial Beach, California</p>
+              <p>550 Marina Pkwy F1-11,</p>
+              <p>Chula Vista, California 91910</p>
               <br />
               <p>
-                Phone: <a href="tel:619-836-0267">619-836-0267</a>
+                Phone: <a href="tel:619-200-0351">619-200-0351</a>
               </p>
             </div>
           </div>
