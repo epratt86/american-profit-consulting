@@ -26,7 +26,10 @@ export default ({ data }) => {
           <Banner>
             <div className={styles.intro}>
               <h1>Your SBA Disaster Loan Expert</h1>
-              <h2>Helping Lenders Get Approved All Across America</h2>
+              <h2>
+                Helping Small Business Owners Get Approved Across the United
+                States
+              </h2>
               <AniLink
                 fade
                 to="/contact"
