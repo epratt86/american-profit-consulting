@@ -13,11 +13,13 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  max-width: 500px;
+  margin-top: 2rem;
 }
 
 .about-img img {
   display: block;
+  border-radius: 50%;
 }
 .about-info h4 {
   font-size: 1.9rem;
@@ -31,7 +33,7 @@
 
 .bio {
   display: grid;
-  grid-template-columns: 1fr 3fr;
+  grid-template-columns: 1fr 1fr;
   grid-gap: 2rem;
   background: var(--mainWhite);
   padding: 1rem 2rem;
