@@ -21,6 +21,19 @@
   margin-bottom: 1rem;
 }
 
+.headline {
+  background: #fff;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: var(--lightShadow);
+}
+
+.headline h1 {
+  font-size: 2rem;
+  font-family: "lato", Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+}
+
 .header {
   display: flex;
   flex-direction: column;

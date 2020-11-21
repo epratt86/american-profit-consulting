@@ -27,6 +27,13 @@ const BlogList = () => {
 
   return (
     <section className={styles.blog}>
+      <article className={styles.headline}>
+        <h1>American Profit Consulting Blog</h1>
+        <h2>
+          Your one-stop spot for all the latest info to help your business
+          succeed
+        </h2>
+      </article>
       <div className={styles.center}>
         {posts.edges.map(({ node }) => {
           return <BlogCard key={node.id} blog={node} />

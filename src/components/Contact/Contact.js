@@ -6,6 +6,12 @@ const Contact = () => {
   return (
     <section className={styles.contact}>
       <div className="center">
+        <article className={styles.headline}>
+          <h1>Get in Touch with American Profit Consulting</h1>
+          <h2>
+            Please complete the form below and get in touch with someone today
+          </h2>
+        </article>
         <div className={styles.row}>
           <div className={styles.col}>
             <div className={styles.header}>

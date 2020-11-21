@@ -2,6 +2,18 @@
   padding: 4rem 0;
   background: var(--offWhite);
 }
+.headline {
+  max-width: 1170px;
+  width: 90vw;
+  margin: auto;
+}
+
+.headline h1 {
+  font-size: 2rem;
+  font-family: "lato", Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+}
+
 .center {
   max-width: 90vw;
   margin: 3rem auto;
