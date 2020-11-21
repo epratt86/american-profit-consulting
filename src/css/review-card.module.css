@@ -28,6 +28,9 @@
 }
 
 @media screen and (max-width: 768px) {
+  .review-card {
+    margin-bottom: 10px;
+  }
   .row {
     grid-template-columns: 1fr;
   }
