@@ -1,12 +1,10 @@
 import React from "react"
 import styles from "../../css/contact.module.css"
 import { FaUser, FaEnvelope, FaPhone, FaRegCommentDots } from "react-icons/fa"
-import Title from "../Title"
 
 const Contact = () => {
   return (
     <section className={styles.contact}>
-      <Title title="contact" subtitle="us" />
       <div className="center">
         <div className={styles.row}>
           <div className={styles.col}>

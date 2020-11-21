@@ -5,6 +5,7 @@ import { graphql } from "gatsby"
 import Contact from "../components/Contact/Contact"
 import SEO from "../components/SEO"
 import Numbers from "../components/Numbers"
+import Title from "../components/Title"
 
 const contact = ({ data }) => {
   return (
@@ -13,7 +14,9 @@ const contact = ({ data }) => {
         title="Contact"
         description="Free thirty minute consultation. Contact us for a complimentary discovery call."
       />
-      <StyledHero img={data.contactBcg.childImageSharp.fluid} />
+      <StyledHero img={data.contactBcg.childImageSharp.fluid}>
+        <Title title="contact" subtitle="us" />
+      </StyledHero>
       <Contact />
       <Numbers />
     </Layout>

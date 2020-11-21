@@ -2,7 +2,6 @@ import React from "react"
 import Layout from "../components/Layout"
 import SEO from "../components/SEO"
 import StyledHero from "../components/StyledHero"
-import Title from "../components/Title"
 import styles from "../css/podcast.module.css"
 
 const podcast = ({ data }) => {
@@ -14,8 +13,11 @@ const podcast = ({ data }) => {
       />
       <StyledHero img={data.podcastBcg.childImageSharp.fluid} />
       <section className={styles.podcast}>
-        <Title title="apc" subtitle="podcast" />
         <div className="center">
+          <article className={styles.headline}>
+            <h1>Straight Outta Cash Flow</h1>
+            <h2>A podcast brought to you by American Profit Consulting</h2>
+          </article>
           <iframe
             src="https://anchor.fm/straightouttacashflow/embed"
             height="102px"

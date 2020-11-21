@@ -34,7 +34,7 @@ export default styled(StyledHero)`
   background: ${props =>
     props.home
       ? "linear-gradient(rgba(30, 60, 78, 0.3), rgba(0, 0, 0, 0.3))"
-      : "none"};
+      : "linear-gradient(rgba(30, 60, 78, 0.3), rgba(0, 0, 0, 0.3))"};
   background-position: center;
   background-size: cover;
   opacity: 1 !important;

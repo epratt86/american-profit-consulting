@@ -13,7 +13,7 @@ const Title = ({ title, subtitle, className }) => {
 }
 export default styled(Title)`
   text-transform: uppercase;
-  font-size: 2.3rem;
+  font-size: 3rem;
   margin-bottom: 2rem;
 
   h4 {
@@ -23,7 +23,7 @@ export default styled(Title)`
   }
 
   .first {
-    color: var(--mainBlack);
+    color: var(--mainWhite);
   }
 
   span {

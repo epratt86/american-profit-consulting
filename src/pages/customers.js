@@ -10,16 +10,16 @@ import { useStaticQuery, graphql } from "gatsby"
 import { documentToReactComponents } from "@contentful/rich-text-react-renderer"
 import Img from "gatsby-image"
 
-const getAbout = graphql`
-  query aboutImage {
-    aboutImage: file(relativePath: { eq: "humberto-kids.jpg" }) {
+const getCustomers = graphql`
+  query customersImage {
+    customersImage: file(relativePath: { eq: "humberto-kids.jpg" }) {
       childImageSharp {
         fluid {
           ...GatsbyImageSharpFluid_tracedSVG
         }
       }
     }
-    aboutHero: file(relativePath: { eq: "pier.jpg" }) {
+    customersHero: file(relativePath: { eq: "pier.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 4160, quality: 90) {
           ...GatsbyImageSharpFluid
@@ -43,9 +43,9 @@ const getAbout = graphql`
   }
 `
 
-const About = () => {
+const Customers = () => {
   // name must match name of query
-  const { aboutHero, content } = useStaticQuery(getAbout)
+  const { customersHero, content } = useStaticQuery(getCustomers)
   const { featuredImage, textContent } = content.edges[0].node
 
   const options = {
@@ -58,12 +58,9 @@ const About = () => {
 
   return (
     <Layout>
-      <SEO
-        title="About"
-        description="As a former business banker/lender, I have a deep passion and regard for business but have spent the last 14 years working for business banks under their agenda. Now I know the truth..."
-      />
-      <StyledHero img={aboutHero.childImageSharp.fluid}>
-        <Title title="proven" subtitle="experience" />
+      <SEO title="Customers" description="change me" />
+      <StyledHero img={customersHero.childImageSharp.fluid}>
+        <Title title="trusted" subtitle="partners" />
       </StyledHero>
       <section className={styles.about}>
         <div className="center">
@@ -95,4 +92,4 @@ const About = () => {
   )
 }
 
-export default About
+export default Customers
