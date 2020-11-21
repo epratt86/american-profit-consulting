@@ -2,6 +2,7 @@
   background: var(--mainWhite);
   padding: 1rem;
   box-shadow: var(--lightShadow);
+  margin: 0 1rem;
 }
 
 .row {
