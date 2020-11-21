@@ -63,8 +63,8 @@ const Services = () => {
 
             <AniLink
               fade
-              // to={`/services/${services.edges[0].node.slug}`}
-              to="/contact"
+              //to={`/services/${services.edges[0].node.slug}`}
+              to={"/contact"}
               className="btn-primary"
             >
               More Info
@@ -84,8 +84,7 @@ const Services = () => {
             </div>
             <AniLink
               fade
-              // to={`/services/${services.edges[1].node.slug}`}
-              to="/contact"
+              to={`/services/${services.edges[1].node.slug}`}
               className="btn-primary"
             >
               Find Out How
@@ -119,8 +118,7 @@ const Services = () => {
             </div>
             <AniLink
               fade
-              // to={`/services/${services.edges[2].node.slug}`}
-              to="/contact"
+              to={`/services/${services.edges[2].node.slug}`}
               className="btn-primary"
             >
               Learn More
@@ -140,8 +138,7 @@ const Services = () => {
             </div>
             <AniLink
               fade
-              // to={`/services/${services.edges[3].node.slug}`}
-              to="/contact"
+              to={`/services/${services.edges[3].node.slug}`}
               className="btn-primary"
             >
               Discover How
