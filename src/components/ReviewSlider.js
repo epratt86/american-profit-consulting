@@ -33,7 +33,7 @@ class ReviewSlider extends Component {
         this.sliderHeight = 100
       } else {
         // mobile
-        this.sliderHeight = 220
+        this.sliderHeight = 200
       }
     }
   }
