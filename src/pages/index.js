@@ -25,7 +25,7 @@ export default ({ data }) => {
         <div className={styles.landing}>
           <Banner>
             <div className={styles.intro}>
-              <h1>Your SBA Disaster Loan Expert</h1>
+              <h1>Did Your Bank Say... No?</h1>
               <h2>
                 Helping Small Business Owners Get Approved Across the United
                 States
