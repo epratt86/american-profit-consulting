@@ -3,6 +3,7 @@
   padding: 1rem;
   box-shadow: var(--lightShadow);
   margin: 0 1rem;
+  border-radius: 10px;
 }
 
 .row {
