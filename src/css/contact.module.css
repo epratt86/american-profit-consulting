@@ -27,10 +27,11 @@
   margin-bottom: 1rem;
   box-shadow: var(--lightShadow);
   border-radius: 10px;
+  text-align: center;
 }
 
 .headline h1 {
-  font-size: 2rem;
+  font-size: 1.75rem;
   font-family: "lato", Arial, Helvetica, sans-serif;
   text-transform: uppercase;
 }
