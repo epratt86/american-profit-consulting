@@ -15,6 +15,7 @@
   padding: 1rem;
   margin: 1rem 0;
   box-shadow: var(--lightShadow);
+  border-radius: 10px;
 }
 .service-a {
   grid-template-columns: 340px auto;
