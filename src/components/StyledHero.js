@@ -38,6 +38,7 @@ export default styled(StyledHero)`
   background-position: center;
   background-size: cover;
   opacity: 1 !important;
+  padding-top: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
