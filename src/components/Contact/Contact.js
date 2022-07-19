@@ -21,11 +21,11 @@ const Contact = () => {
                 call.
               </p>
               <br />
-              <p>550 Marina Pkwy F1-11,</p>
+              <p>310 3rd Ave Suite c27a,</p>
               <p>Chula Vista, California 91910</p>
               <br />
               <p>
-                Phone: <a href="tel:619-200-0351">619-200-0351</a>
+                Phone: <a href="tel:619-330-1285">619-330-1285</a>
               </p>
             </div>
           </div>
@@ -49,6 +49,7 @@ const Contact = () => {
                   id="name"
                   className={styles.formControl}
                   placeholder="John Smith"
+                  required
                 />
               </div>
               <div>
@@ -62,6 +63,7 @@ const Contact = () => {
                   id="email"
                   className={styles.formControl}
                   placeholder="email@email.com"
+                  required
                 />
               </div>
               <div>
@@ -75,6 +77,7 @@ const Contact = () => {
                   id="phone"
                   className={styles.formControl}
                   placeholder="619-555-5555"
+                  required
                 />
               </div>
               <div>
@@ -88,6 +91,7 @@ const Contact = () => {
                   rows="10"
                   className={styles.formControl}
                   placeholder="Leave your message"
+                  required
                 />
                 <input type="hidden" name="bot-field" />
                 <input type="hidden" name="form-name" value="contact" />
