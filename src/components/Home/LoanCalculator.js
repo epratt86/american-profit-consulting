@@ -97,6 +97,7 @@ export default class LoanCalculator extends Component {
                     id="name"
                     className={styles.formControl}
                     placeholder="John Smith"
+                    required
                   />
                 </div>
                 <div>
@@ -110,6 +111,7 @@ export default class LoanCalculator extends Component {
                     id="email"
                     className={styles.formControl}
                     placeholder="email@email.com"
+                    required
                   />
                 </div>
                 <div>
@@ -123,6 +125,7 @@ export default class LoanCalculator extends Component {
                     id="phone"
                     className={styles.formControl}
                     placeholder="619-555-5555"
+                    required
                   />
                 </div>
                 <div>
@@ -135,6 +138,7 @@ export default class LoanCalculator extends Component {
                     id="message"
                     rows="10"
                     className={styles.formControl}
+                    required
                     value={`I would like to borrow $${this.state.amountValue} over the next ${this.state.yearsValue} years - Show me how!`}
                   />
                   <input type="hidden" name="bot-field" />
