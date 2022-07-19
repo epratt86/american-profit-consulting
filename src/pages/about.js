@@ -69,11 +69,6 @@ const About = () => {
         <div className="center">
           <div className={styles.row}>
             <div className={styles.bio}>
-              <article className={styles.aboutImg}>
-                <div className={styles.imgContainer}>
-                  <Img fluid={featuredImage.fluid} alt="Humberto Hernandez" />
-                </div>
-              </article>
               <article className={styles.aboutInfo}>
                 {documentToReactComponents(textContent.json, options)}
                 <AniLink
@@ -84,6 +79,11 @@ const About = () => {
                 >
                   get in touch
                 </AniLink>
+              </article>
+              <article className={styles.aboutImg}>
+                <div className={styles.imgContainer}>
+                  <Img fluid={featuredImage.fluid} alt="Humberto Hernandez" />
+                </div>
               </article>
             </div>
           </div>
