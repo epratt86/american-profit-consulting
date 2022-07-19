@@ -33,7 +33,7 @@
 
 .bio {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 2fr;
   grid-gap: 2rem;
   background: var(--mainWhite);
   padding: 1rem 2rem;
